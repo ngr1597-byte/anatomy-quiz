@@ -1,4 +1,4 @@
-const CACHE_NAME = 'anatomy-quiz-v6';
+const CACHE_NAME = 'anatomy-quiz-v7';
 
 // App shell — pre-cached on install
 const APP_SHELL = [

@@ -1,6 +1,6 @@
-const CACHE_NAME = 'anatomy-quiz-v1';
+const CACHE_NAME = 'anatomy-quiz-v2';
 
-// App shell — pre-cached on install. Images are cached by the app's download screen.
+// App shell — pre-cached on install
 const APP_SHELL = [
   './',
   './index.html',
@@ -12,7 +12,7 @@ const APP_SHELL = [
   './icon-512.png',
 ];
 
-// Install: cache app shell only
+// Install: cache app shell
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
@@ -32,9 +32,19 @@ self.addEventListener('activate', event => {
   );
 });
 
-// Fetch: cache-first, network fallback
+// Fetch: cache-first, but also cache images on first fetch for offline use
 self.addEventListener('fetch', event => {
   event.respondWith(
-    caches.match(event.request).then(cached => cached || fetch(event.request))
+    caches.match(event.request).then(cached => {
+      if (cached) return cached;
+      return fetch(event.request).then(response => {
+        // Cache images automatically as they're loaded
+        if (response.ok && event.request.url.match(/\.(png|jpg|jpeg|gif|webp)$/i)) {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+        }
+        return response;
+      });
+    })
   );
 });

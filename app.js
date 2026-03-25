@@ -1,6 +1,6 @@
 // === CONSTANTS ===
 const MASTERY_THRESHOLD = 3;
-const CACHE_NAME = 'anatomy-quiz-v1';
+const CACHE_NAME = 'anatomy-quiz-v2';
 const STORAGE_KEY = 'anatomy-quiz-progress';
 
 // === STATE ===
@@ -99,88 +99,6 @@ function showScreen(name) {
   state.currentScreen = name;
 }
 
-// === DOWNLOAD SCREEN ===
-function getImageVersion() {
-  // Version key based on the count of image questions — changes when new images are added
-  const imageCount = QUESTIONS.filter(q => q.has_image && q.image_file).length;
-  return 'img-v-' + imageCount;
-}
-
-async function checkAndDownloadAssets() {
-  const imageQuestions = QUESTIONS.filter(q => q.has_image && q.image_file);
-  if (imageQuestions.length === 0) {
-    showScreen('home');
-    renderHome();
-    return;
-  }
-
-  // Fast path: if we've already downloaded all images for this version, skip entirely
-  const progress = loadProgress();
-  const currentVersion = getImageVersion();
-  if (progress.imagesDownloaded === currentVersion) {
-    showScreen('home');
-    renderHome();
-    return;
-  }
-
-  // Check which images are actually missing from cache
-  const missing = [];
-  try {
-    const cache = await caches.open(CACHE_NAME);
-    for (const q of imageQuestions) {
-      const url = 'images/' + q.image_file;
-      const match = await cache.match(url);
-      if (!match) missing.push(url);
-    }
-  } catch {
-    // If caches API fails, try downloading everything
-    imageQuestions.forEach(q => missing.push('images/' + q.image_file));
-  }
-
-  if (missing.length === 0) {
-    // All cached — mark as downloaded and go to home
-    progress.imagesDownloaded = currentVersion;
-    saveProgressData(progress);
-    showScreen('home');
-    renderHome();
-    return;
-  }
-
-  // Show download screen
-  showScreen('download');
-  const statusEl = document.getElementById('download-status');
-  const progressEl = document.getElementById('download-progress');
-  const countEl = document.getElementById('download-count');
-  const total = missing.length;
-  let downloaded = 0;
-
-  statusEl.textContent = 'Downloading images...';
-  countEl.textContent = `0 / ${total}`;
-
-  const cache = await caches.open(CACHE_NAME);
-  for (const url of missing) {
-    try {
-      const response = await fetch(url);
-      if (response.ok) {
-        await cache.put(url, response.clone());
-      }
-    } catch {
-      // Skip failed downloads — will retry next launch
-    }
-    downloaded++;
-    const pct = Math.round((downloaded / total) * 100);
-    progressEl.style.width = pct + '%';
-    countEl.textContent = `${downloaded} / ${total}`;
-  }
-
-  // Mark images as downloaded so we skip this screen next time
-  const updatedProgress = loadProgress();
-  updatedProgress.imagesDownloaded = currentVersion;
-  saveProgressData(updatedProgress);
-
-  showScreen('home');
-  renderHome();
-}
 
 // === HOME SCREEN ===
 function renderHome() {
@@ -593,11 +511,12 @@ async function registerSW() {
 }
 
 // === INIT ===
-async function init() {
+function init() {
   loadTheme();
   bindEvents();
-  await registerSW();
-  await checkAndDownloadAssets();
+  registerSW();
+  showScreen('home');
+  renderHome();
 }
 
 init();

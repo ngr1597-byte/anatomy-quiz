@@ -5,7 +5,7 @@ const STORAGE_KEY = 'anatomy-quiz-progress';
 
 // === STATE ===
 let state = {
-  currentScreen: 'download',
+  currentScreen: 'home',
   filterMode: 'all',
   filterValue: null,
   sessionQuestions: [],

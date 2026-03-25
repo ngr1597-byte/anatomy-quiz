@@ -3,7 +3,7 @@
     "description": "Anatomy MCQ dataset from Indian medical PG entrance exams (AIIMS, NEET, INI-CET)",
     "source": "Marrow Anatomy Question Bank",
     "total_exams": 15,
-    "exams_extracted": 2,
+    "exams_extracted": 7,
     "schema_version": "1.0",
     "image_directory": "images/",
     "topic_categories": [
@@ -607,10 +607,10 @@
       "image_file": null,
       "image_description": null,
       "options": {
-        "a": "Middle meningeal artery – Anterior cranial fossa",
-        "b": "Accessory meningeal branch of maxillary artery – Middle cranial fossa",
-        "c": "Meningeal branch of internal carotid artery – Posterior cranial fossa",
-        "d": "Meningeal branch of anterior and posterior ethmoid artery – Anterior cranial fossa"
+        "a": "Middle meningeal artery \u2013 Anterior cranial fossa",
+        "b": "Accessory meningeal branch of maxillary artery \u2013 Middle cranial fossa",
+        "c": "Meningeal branch of internal carotid artery \u2013 Posterior cranial fossa",
+        "d": "Meningeal branch of anterior and posterior ethmoid artery \u2013 Anterior cranial fossa"
       },
       "correct_answer": "c",
       "explanation": "The meningeal branch of the internal carotid artery (ICA) does not supply the posterior cranial fossa. It supplies the anterior cranial fossa. The dura mater is supplied by meningeal arteries that pass along the inner periosteum (endosteum) of the skull. Anterior cranial fossa: Meningeal branches of anterior/posterior ethmoid arteries, internal carotid artery, and middle meningeal artery. Middle cranial fossa: Middle meningeal artery, accessory meningeal branches of maxillary artery, ascending pharyngeal artery, branches of internal carotid artery, recurrent branch of lacrimal artery. Posterior cranial fossa: Meningeal branches of occipital artery, posterior meningeal branches of vertebral artery, dorsal meningeal and tentorial arteries from the meningohypophyseal trunk."
@@ -649,7 +649,7 @@
         "d": "Hypoglossal nerve"
       },
       "correct_answer": "d",
-      "explanation": "The hypoglossal nerve is purely motor cranial nerve and is not involved in olfaction. The other three cranial nerves — trigeminal, glossopharyngeal, and vagus nerves are mixed cranial nerves and contribute to olfaction. Vagal nerve stimulation modifies the electrical activity of the olfactory bulb."
+      "explanation": "The hypoglossal nerve is purely motor cranial nerve and is not involved in olfaction. The other three cranial nerves \u2014 trigeminal, glossopharyngeal, and vagus nerves are mixed cranial nerves and contribute to olfaction. Vagal nerve stimulation modifies the electrical activity of the olfactory bulb."
     },
     {
       "id": "AIIMS_2018_Q13",
@@ -830,6 +830,1662 @@
       },
       "correct_answer": "a",
       "explanation": "Meissner corpuscles are present in the papillary dermis. These corpuscles are rapidly adapting mechanoreceptors particularly sensitive to the movement of objects over the skin's surface and low-frequency vibrations. Their acute sensitivity plays a crucial role in tasks such as reading Braille text. It is an elongated encapsulated nerve ending of a large myelinated sensory nerve fiber (type Abeta). Each corpuscle consists of a connective tissue capsule and a central core composed of stacked modified Schwann cells. Meissner's corpuscles are found in nonhairy areas of the skin, especially in fingertips, lips, and other regions where spatial touch perception is highly developed."
+    },
+    {
+      "id": "AIIMS_2019_Q01",
+      "exam": "AIIMS 2019",
+      "question_number": 1,
+      "topic": "Thorax",
+      "question_text": "The region marked corresponds to the surface marking for which of the following structures:",
+      "has_image": true,
+      "image_file": "AIIMS_2019_Q01.png",
+      "image_description": "Anterior chest wall with a marked region showing surface anatomy landmarks including costal margin and mid-clavicular line",
+      "options": {
+        "a": "Thoracic duct",
+        "b": "Right atrium",
+        "c": "Inferomedial bronchopulmonary segments",
+        "d": "Hilum"
+      },
+      "correct_answer": "b",
+      "explanation": "The region marked corresponds to the surface marking for the right atrium. The right border of the heart is convex to the right and runs from the third to the sixth right costal cartilages, 1-2 cm lateral to the sternal edge. It corresponds to the right atrium. Upper border corresponds to the left atrium, inferior border to the right ventricle, and left border to the left ventricle."
+    },
+    {
+      "id": "AIIMS_2019_Q02",
+      "exam": "AIIMS 2019",
+      "question_number": 2,
+      "topic": "Lower Limb",
+      "question_text": "The action of the muscle attached to the marked area?",
+      "has_image": true,
+      "image_file": "AIIMS_2019_Q02.png",
+      "image_description": "Femur bone with an arrow pointing to the greater trochanter region",
+      "options": {
+        "a": "Flexion",
+        "b": "Adduction",
+        "c": "Abduction",
+        "d": "Extension"
+      },
+      "correct_answer": "c",
+      "explanation": "The image shows the greater trochanter and the muscle fibers of the gluteus medius and gluteus minimus attach(insert) here. Their function is to abduct the thigh and their anterior fibers rotate the thigh medially. Both are innervated by the superior gluteal nerve (L4, L5, S1). Greater trochanter is large and quadrangular at the junction of the neck and shaft. Lesser trochanter is a conical projection, posteromedial to shaft."
+    },
+    {
+      "id": "AIIMS_2019_Q03",
+      "exam": "AIIMS 2019",
+      "question_number": 3,
+      "topic": "Upper Limb",
+      "question_text": "Which of the following finger has two dorsal interossei muscles?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Index finger",
+        "b": "Little finger",
+        "c": "Middle finger",
+        "d": "Ring finger"
+      },
+      "correct_answer": "c",
+      "explanation": "The Middle Finger has two Dorsal interossei. Dorsal Interossei cause abduction of fingers from the Middle/3rd finger. Palmar interossei are unipennate muscles originating from their own metacarpal bone. Their function is adduction. The middle finger does not need adduction and hence does not have palmar interossei. Dorsal interossei are bipennate muscles originating from the adjacent metacarpal bone. They attach to the middle three fingers on both sides. Nerve supply: Deep branch of the ulnar nerve (C8, T1)."
+    },
+    {
+      "id": "AIIMS_2019_Q04",
+      "exam": "AIIMS 2019",
+      "question_number": 4,
+      "topic": "Abdomen & Pelvis",
+      "question_text": "The structure that divides the liver in Couinaud's classification system is:",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Portal vein",
+        "b": "Hepatic artery",
+        "c": "Bile duct",
+        "d": "Cystic duct"
+      },
+      "correct_answer": "a",
+      "explanation": "The structure that divides the liver in Couinaud's classification system is the portal vein."
+    },
+    {
+      "id": "AIIMS_2019_Q05",
+      "exam": "AIIMS 2019",
+      "question_number": 5,
+      "topic": "Head & Neck",
+      "question_text": "Which of the following muscle is not supplied by the structure marked A?",
+      "has_image": true,
+      "image_file": "AIIMS_2019_Q05.png",
+      "image_description": "Superior view of the orbital cavity with structure A marked pointing to the oculomotor nerve",
+      "options": {
+        "a": "Superior rectus",
+        "b": "Superior oblique",
+        "c": "Medial rectus",
+        "d": "Levator palpebrae superioris (LPS)"
+      },
+      "correct_answer": "b",
+      "explanation": "The structure marked is the oculomotor nerve and it does not supply the superior oblique muscle. Superior oblique muscle is supplied by the trochlear nerve. All the extraocular muscles are innervated by the oculomotor (III) nerve except: Lateral rectus which is supplied by abducens (VI) nerve, and Superior oblique which is supplied by trochlear (IV) nerve."
+    },
+    {
+      "id": "AIIMS_2019_Q06",
+      "exam": "AIIMS 2019",
+      "question_number": 6,
+      "topic": "Abdomen & Pelvis",
+      "question_text": "The wrong statement regarding the levator ani muscle is:",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Supports pelvic viscera",
+        "b": "Converge downwards and medially",
+        "c": "Consists of iliococcygeus and pubococcygeus",
+        "d": "Attached to pelvic brim"
+      },
+      "correct_answer": "d",
+      "explanation": "Levator Ani Muscle is not attached to the pelvic brim. It takes its origin from the body of the pubis, the arcus tendinous of the levator ani (a thickened part of the obturator fascia), and the ischial spine. Insertion: The coccyx and the anococcygeal raphe or ligament. Nerve supply: Branches of the anterior rami of sacral nerves S3 and S4 and the perineal branch of the pudendal nerve. It supports and raises the pelvic floor. Consists of the puborectalis, pubococcygeus, and iliococcygeus."
+    },
+    {
+      "id": "AIIMS_2019_Q07",
+      "exam": "AIIMS 2019",
+      "question_number": 7,
+      "topic": "Thorax",
+      "question_text": "In the given section of the heart, match the marked (A, B, C & D) structures.",
+      "has_image": true,
+      "image_file": "AIIMS_2019_Q07.png",
+      "image_description": "Cut and reflected section of the heart showing labeled structures A, B, C, D with matching options: 1-Musculi pectinate, 2-Anterior papillary muscle of left ventricle, 3-Anterior papillary muscle of right ventricle, 4-Anterior leaflet of mitral valve, 5-Membranous part of ventricular septum",
+      "options": {
+        "a": "A-5, B-2, C-1, D-4",
+        "b": "A-1, B-2, C-5, D-3",
+        "c": "A-5, B-3, C-2, D-1",
+        "d": "A-1, B-2, C-4, D-5"
+      },
+      "correct_answer": "c",
+      "explanation": "The image shows a cut and reflected section of the heart. The ventricles can be identified based upon the wall thickness. Left ventricle has thicker walls. The correct match is: A-Membranous part of interventricular septum (5), B-Right anterior papillary muscle (cut) (3), C-Left anterior papillary muscle (2), D-Muscle pectinate (1)."
+    },
+    {
+      "id": "AIIMS_2019_Q08",
+      "exam": "AIIMS 2019",
+      "question_number": 8,
+      "topic": "Neuroanatomy",
+      "question_text": "A lesion of the structure marked in the image below causes?",
+      "has_image": true,
+      "image_file": "AIIMS_2019_Q08.png",
+      "image_description": "Ventral view of the brainstem with an arrow and question mark pointing to the pyramid region of the medulla",
+      "options": {
+        "a": "Contralateral hemiplegia",
+        "b": "Ataxia",
+        "c": "Tinnitus",
+        "d": "Ipsilateral facial palsy"
+      },
+      "correct_answer": "a",
+      "explanation": "The structure marked in the image is the pyramid containing the pyramidal tracts. A lesion here leads to contralateral hemiplegia."
+    },
+    {
+      "id": "AIIMS_2019_Q09",
+      "exam": "AIIMS 2019",
+      "question_number": 9,
+      "topic": "Upper Limb",
+      "question_text": "Identify the structure marked in the image given below:",
+      "has_image": true,
+      "image_file": "AIIMS_2019_Q09.png",
+      "image_description": "Dissection of the palm showing blood vessels, with an arrow pointing to a vessel contributing to the superficial palmar arch",
+      "options": {
+        "a": "Ulnar nerve",
+        "b": "Ulnar artery",
+        "c": "Superficial radial artery",
+        "d": "Median nerve"
+      },
+      "correct_answer": "b",
+      "explanation": "The structure marked in the image is the ulnar artery, seen contributing to the superficial palmar arch. It passes deep to the Guyon's canal in the wrist and contributes to the superficial and deep palmar arch."
+    },
+    {
+      "id": "AIIMS_2019_Q10",
+      "exam": "AIIMS 2019",
+      "question_number": 10,
+      "topic": "Upper Limb",
+      "question_text": "True regarding the lesion of the structure marked by the arrow is:",
+      "has_image": true,
+      "image_file": "AIIMS_2019_Q10.png",
+      "image_description": "Dissection of the forearm/cubital fossa region with an arrow pointing to a nerve structure",
+      "options": {
+        "a": "Ape thumb deformity",
+        "b": "Claw hand",
+        "c": "Claudication",
+        "d": "Wrist drop"
+      },
+      "correct_answer": "d",
+      "explanation": "The structure marked in the image is the radial nerve demonstrated in the cubital fossa. A lesion of the radial nerve leads to a wrist drop. Ape thumb deformity is seen in a lesion of the median nerve. Claw hand deformity is seen in a lesion of the ulnar nerve."
+    },
+    {
+      "id": "AIIMS_2019_Q11",
+      "exam": "AIIMS 2019",
+      "question_number": 11,
+      "topic": "Abdomen & Pelvis",
+      "question_text": "Which of the following structures given below is related to the structure highlighted (red) in the image?",
+      "has_image": true,
+      "image_file": "AIIMS_2019_Q11.png",
+      "image_description": "3D model of the pelvis with red highlighted areas on both sides at the ischial spines",
+      "options": {
+        "a": "Pudendal nerve",
+        "b": "Sciatic nerve",
+        "c": "Obturator nerve",
+        "d": "Femoral nerve"
+      },
+      "correct_answer": "a",
+      "explanation": "The structure marked in red is the ischial spine and the pudendal nerve is related to it. The pudendal nerve originates from the sacral plexus S2-S4. It exits out of the pelvis by passing through the greater sciatic foramen. It then enters the perineum below the pelvic floor by passing around the ischial spine. The ischial spine is used as a landmark for pudendal nerve block."
+    },
+    {
+      "id": "AIIMS_2019_Q12",
+      "exam": "AIIMS 2019",
+      "question_number": 12,
+      "topic": "Upper Limb",
+      "question_text": "All of the following form the marked structure except:",
+      "has_image": true,
+      "image_file": "AIIMS_2019_Q12.png",
+      "image_description": "Dissection of the dorsum of the hand with an arrow pointing to the dorsal digital expansion of the middle finger",
+      "options": {
+        "a": "2nd Dorsal interossei",
+        "b": "Lumbricals",
+        "c": "Extensor digitorum",
+        "d": "2nd Palmar interossei"
+      },
+      "correct_answer": "d",
+      "explanation": "The structure marked is the dorsal digital expansion of the middle finger. Palmar interossei do not attach to the middle finger and therefore do not contribute to the dorsal digital expansion of the middle finger. Palmar interossei are unipennate muscles originating from their own metacarpal bone. Their function is adduction. The middle finger does not need adduction and hence does not have palmar interossei."
+    },
+    {
+      "id": "AIIMS_2019_Q13",
+      "exam": "AIIMS 2019",
+      "question_number": 13,
+      "topic": "Upper Limb",
+      "question_text": "Which of the following structures of brachial plexus do not give branches?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Roots",
+        "b": "Cords",
+        "c": "Trunks",
+        "d": "Divisions"
+      },
+      "correct_answer": "d",
+      "explanation": "The divisions in the brachial plexus do not give any branches. However, the roots, trunks, and cords of the brachial plexus give out direct branches."
+    },
+    {
+      "id": "AIIMS_2019_Q14",
+      "exam": "AIIMS 2019",
+      "question_number": 14,
+      "topic": "Upper Limb",
+      "question_text": "Lesion of the structure marked 'A' causes:",
+      "has_image": true,
+      "image_file": "AIIMS_2019_Q14.png",
+      "image_description": "Dissection of the cubital fossa with structure A marked by a yellow arrow pointing to the median nerve",
+      "options": {
+        "a": "Loss of sensation of the nail of index finger",
+        "b": "Hypothenar muscles wasting",
+        "c": "Loss of sensation at the tip of radial tubercle",
+        "d": "Loss of sensation of the 4th interdigital cleft"
+      },
+      "correct_answer": "a",
+      "explanation": "The structure marked 'A' in the diagram is median nerve in the cubital fossa. A lesion of the median nerve causes loss of sensation of the nail of the index finger. Median nerve cutaneous supply: Lateral 2/3rd of the palm by superficial cutaneous branch, and lateral 3\u00bd fingers (palmar aspect and dorsal aspect of nailbeds) by palmar digital nerves. Contents of cubital fossa (from medial to lateral) - MBBR: Median nerve, Brachial artery, Biceps brachii tendon, Radial nerve."
+    },
+    {
+      "id": "AIIMS_2019_Q15",
+      "exam": "AIIMS 2019",
+      "question_number": 15,
+      "topic": "Abdomen & Pelvis",
+      "question_text": "Which of the following is related to the marked area in the image?",
+      "has_image": true,
+      "image_file": "AIIMS_2019_Q15.png",
+      "image_description": "Left kidney specimen with a red arrow pointing to the upper pole/suprarenal area",
+      "options": {
+        "a": "Stomach",
+        "b": "Spleen",
+        "c": "2nd part of duodenum",
+        "d": "Pancreas"
+      },
+      "correct_answer": "a",
+      "explanation": "The marked area in the image of the left kidney is related to the stomach. Posterior relations of the kidneys include: One vessel (subcostal vessels), Two ligaments (medial and lateral arcuate ligaments), Three nerves (subcostal, iliohypogastric, and ilioinguinal nerves), Four muscles (diaphragm, psoas major, quadratus lumborum, and transversus abdominis). The right kidney is related to the 12th rib and the left kidney is related to the 11th and 12th ribs."
+    },
+    {
+      "id": "AIIMS_2019_Q16",
+      "exam": "AIIMS 2019",
+      "question_number": 16,
+      "topic": "Neuroanatomy",
+      "question_text": "The blood supply to the structure marked in the image is by:",
+      "has_image": true,
+      "image_file": "AIIMS_2019_Q16.png",
+      "image_description": "Sagittal section of the brain with a yellow arrow pointing to the fornix",
+      "options": {
+        "a": "Vertebral artery",
+        "b": "Internal carotid artery",
+        "c": "Anterior cerebral artery",
+        "d": "Middle cerebral artery"
+      },
+      "correct_answer": "c",
+      "explanation": "The marked structure is fornix which is supplied by the anterior cerebral artery. The anteromedial central branches from the anterior cerebral artery supply the fornix along with optic chiasma, lamina terminalis, hypothalamus, para-olfactory areas, and cingulate gyrus."
+    },
+    {
+      "id": "AIIMS_2019_Q17",
+      "exam": "AIIMS 2019",
+      "question_number": 17,
+      "topic": "Embryology",
+      "question_text": "Marked structure is derived from the______",
+      "has_image": true,
+      "image_file": "AIIMS_2019_Q17.png",
+      "image_description": "Diagram of the developing heart showing labeled structure A pointing to a region of the interventricular septum",
+      "options": {
+        "a": "Endocardial cushions",
+        "b": "Septum primum",
+        "c": "Left venous valve",
+        "d": "Bulbous venosus"
+      },
+      "correct_answer": "a",
+      "explanation": "The structure marked is the membranous part of the interventricular septum. It is derived from endocardial cushions. Endocardial cushions are soft tissue masses that protrude in the atrioventricular and conotruncal regions. Atrioventricular cushions are derived from overlying endocardial cells. Conotruncal cushions are derived from neural crest cells. Endocardial cushions contribute to: Atrial septa, Ventricular septa (membranous portion), Atrioventricular canals, Atrioventricular valves, Aortic and pulmonary channels. Defects in endocardial cushion formation can result in ASDs, VSDs, transposition of great vessels, common truncus arteriosus, and tetralogy of Fallot."
+    },
+    {
+      "id": "AIIMS_2019_Q18",
+      "exam": "AIIMS 2019",
+      "question_number": 18,
+      "topic": "Thorax",
+      "question_text": "All of the following supply the marked structure except:",
+      "has_image": true,
+      "image_file": "AIIMS_2019_Q18.png",
+      "image_description": "Photograph of the heart with an arrow pointing to the right ventricle",
+      "options": {
+        "a": "Right coronary artery",
+        "b": "Anterior interventricular artery",
+        "c": "Marginal artery",
+        "d": "Diagonal artery"
+      },
+      "correct_answer": "d",
+      "explanation": "The structure marked is the right ventricle. It is not supplied by the diagonal artery. The diagonal artery is a branch of the anterior interventricular artery supplying the left ventricle. This is present in about 30-50% of the population. The right ventricle is mostly supplied by the right coronary artery and its branches such as the marginal artery. The anterior interventricular artery gives off 1-2 anterior right ventricular branches."
+    },
+    {
+      "id": "AIIMS_2019_Q19",
+      "exam": "AIIMS 2019",
+      "question_number": 19,
+      "topic": "Head & Neck",
+      "question_text": "What is the nerve supply of the structure marked in the image below?",
+      "has_image": true,
+      "image_file": "AIIMS_2019_Q19.png",
+      "image_description": "Coronal section of the face showing paranasal sinuses and orbital contents with a question mark pointing to the superior oblique muscle",
+      "options": {
+        "a": "Oculomotor nerve",
+        "b": "Trochlear nerve",
+        "c": "Trigeminal nerve",
+        "d": "Abducens nerve"
+      },
+      "correct_answer": "b",
+      "explanation": "The structure marked in the image is the superior oblique muscle. It is innervated by the trochlear nerve. There are seven extraocular muscles present in the eye: Levator palpebrae superioris (elevates the upper eyelids), Four recti muscles (Superior, inferior, medial, and lateral recti), Two obliques (Superior and inferior oblique). The muscles originate from the back of the orbit in a common tendinous ring called the annulus of Zinn and are inserted into the sclera. All the extraocular muscles are innervated by the oculomotor (III) nerve except: Lateral rectus (abducens VI nerve) and Superior oblique (trochlear IV nerve)."
+    },
+    {
+      "id": "AIIMS_2020_Q01",
+      "exam": "AIIMS 2020",
+      "question_number": 1,
+      "topic": "Embryology",
+      "question_text": "Given is a model of embryological development of the heart. Which structure develops from the area marked as 'A'?",
+      "has_image": true,
+      "image_file": "AIIMS_2020_Q01.png",
+      "image_description": "Model of embryological heart development showing dextro-looping stage with area A marked in the red region (bulbus cordis)",
+      "options": {
+        "a": "Atria",
+        "b": "Left Ventricle",
+        "c": "Infundibulum",
+        "d": "Interventricular septum"
+      },
+      "correct_answer": "c",
+      "explanation": "The structure marked is conus cordis (middle part of bulbus cordis). The infundibulum of the heart develops from this structure. The model shows the embryologic stage where both heart tubes have fused and are undergoing dextro-looping (around day 23). Bulbus cordis gives rise to: proximal 1/3 (conus cordis) \u2192 infundibulum/outflow tract of right ventricle; distal 1/3 (truncus arteriosus) \u2192 root and proximal portions of aorta and pulmonary artery. Primitive ventricle \u2192 trabeculated part of left ventricle. Primitive atrium \u2192 common atrium that splits to right and left atrium."
+    },
+    {
+      "id": "AIIMS_2020_Q02",
+      "exam": "AIIMS 2020",
+      "question_number": 2,
+      "topic": "Lower Limb",
+      "question_text": "A muscle is attached to the area marked in the given image. What is the action of this muscle on the hip joint?",
+      "has_image": true,
+      "image_file": "AIIMS_2020_Q02.png",
+      "image_description": "Posterior view of femur with a blue highlighted area at the gluteal tuberosity",
+      "options": {
+        "a": "Flexion and medial rotation",
+        "b": "Adduction and lateral rotation",
+        "c": "Abduction and medial rotation",
+        "d": "Extension and lateral rotation"
+      },
+      "correct_answer": "d",
+      "explanation": "The area marked is the gluteal tuberosity. The muscle inserted here is the gluteus maximus which causes extension and lateral rotation of the hip joint. Gluteus maximus inserts onto iliotibial tract (3/4th part) and deep fibers (1/4th) attach on gluteal tuberosity. It is supplied by the inferior gluteal nerve. It is the chief extensor of the lower limb at the hip joint and additionally causes lateral rotation and abduction."
+    },
+    {
+      "id": "AIIMS_2020_Q03",
+      "exam": "AIIMS 2020",
+      "question_number": 3,
+      "topic": "Neuroanatomy",
+      "question_text": "Neurotransmitter secreted by the area marked in the given image is?",
+      "has_image": true,
+      "image_file": "AIIMS_2020_Q03.png",
+      "image_description": "Coronal section of the brain with area A marked at the substantia nigra region",
+      "options": {
+        "a": "Acetylcholine",
+        "b": "Dopamine",
+        "c": "Glutamine",
+        "d": "Noradrenaline"
+      },
+      "correct_answer": "b",
+      "explanation": "The area marked is substantia nigra (meaning dark substance). The neurotransmitter secreted by this area is dopamine. Substantia nigra is a part of the nigrostriatal pathway. Degeneration of dopaminergic neurons is implicated in Parkinson's disease. Other dopaminergic pathways include: Mesocortical, Mesolimbic, and Tuberoinfundibular."
+    },
+    {
+      "id": "AIIMS_2020_Q04",
+      "exam": "AIIMS 2020",
+      "question_number": 4,
+      "topic": "Head & Neck",
+      "question_text": "Which of the following arteries passes in close proximity to the area marked by the arrow in the given image?",
+      "has_image": true,
+      "image_file": "AIIMS_2020_Q04.png",
+      "image_description": "Lateral view of skull with arrow pointing to the pterion region (circled in blue)",
+      "options": {
+        "a": "Internal carotid artery",
+        "b": "Middle meningeal artery",
+        "c": "Anterior cerebral artery",
+        "d": "Deep temporal artery"
+      },
+      "correct_answer": "b",
+      "explanation": "The area marked by an arrow is pterion and the artery that passes in close proximity is the middle meningeal artery. The pterion is an H shaped sutural junction between four bones of the skull: Frontal bone, Squamous part of the temporal bone, Greater wing of the sphenoid bone, and Parietal bone. It overlies the anterior branch of the middle meningeal artery and lateral fissure of the cerebral hemisphere. The bone is thin here and injury can lead to extradural hemorrhage."
+    },
+    {
+      "id": "AIIMS_2020_Q05",
+      "exam": "AIIMS 2020",
+      "question_number": 5,
+      "topic": "Histology",
+      "question_text": "Where are the Ito cells in the liver located?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Space of disse",
+        "b": "Space of moll",
+        "c": "Sinusoids",
+        "d": "Bile canaliculi"
+      },
+      "correct_answer": "a",
+      "explanation": "Ito cells (hepatic stellate cells) are located in the Space of Disse in the liver. They store vitamin A and are involved in liver fibrosis when activated."
+    },
+    {
+      "id": "AIIMS_2020_Q06",
+      "exam": "AIIMS 2020",
+      "question_number": 6,
+      "topic": "Histology",
+      "question_text": "Which of the following features differentiates the exocrine pancreas from the parotid gland?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Basal lamina lining the serous acini",
+        "b": "Absence of striated duct",
+        "c": "Presence of serous acini with acidophilic tip",
+        "d": "Presence of apical acinar villi"
+      },
+      "correct_answer": "b",
+      "explanation": "The exocrine pancreas lacks striated ducts, which are present in the parotid gland. Both are serous glands with similar acinar structure, but the ductal system differs. The pancreas has centroacinar cells that are unique to it."
+    },
+    {
+      "id": "AIIMS_2020_Q07",
+      "exam": "AIIMS 2020",
+      "question_number": 7,
+      "topic": "Neuroanatomy",
+      "question_text": "Medial lemniscus is a continuation of which of the following structures?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Spinothalamic tract",
+        "b": "Spinocerebellar tract",
+        "c": "Spinotectal tract",
+        "d": "Fasciculus gracilis"
+      },
+      "correct_answer": "d",
+      "explanation": "Medial lemniscus is a continuation of the fasciculus gracilis (and fasciculus cuneatus). These are the dorsal column tracts that carry fine touch, proprioception, and vibration. The fibers synapse in the gracile and cuneate nuclei in the medulla, then cross as internal arcuate fibers to form the medial lemniscus which ascends to the thalamus."
+    },
+    {
+      "id": "AIIMS_2020_Q08",
+      "exam": "AIIMS 2020",
+      "question_number": 8,
+      "topic": "Neuroanatomy",
+      "question_text": "The type of fibers present in the fornix are:",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Association and commissural fibers",
+        "b": "Association and projection fibers",
+        "c": "Commissural and projection fibers",
+        "d": "Association fibers"
+      },
+      "correct_answer": "a",
+      "explanation": "The fornix contains both association and commissural fibers. The main body of the fornix carries association fibers from hippocampus to mammillary body. The hippocampal commissure (commissure of the fornix) connects the two hippocampi across the midline, providing commissural fibers."
+    },
+    {
+      "id": "AIIMS_2020_Q09",
+      "exam": "AIIMS 2020",
+      "question_number": 9,
+      "topic": "Neuroanatomy",
+      "question_text": "Decussation of the superior cerebellar peduncle occurs at which level?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Pons",
+        "b": "Midbrain",
+        "c": "Diencephalon",
+        "d": "Medulla"
+      },
+      "correct_answer": "b",
+      "explanation": "Decussation of the superior cerebellar peduncle occurs at the level of the midbrain (inferior colliculus level). The superior cerebellar peduncle carries efferent fibers from the dentate nucleus to the contralateral red nucleus and thalamus."
+    },
+    {
+      "id": "AIIMS_2020_Q10",
+      "exam": "AIIMS 2020",
+      "question_number": 10,
+      "topic": "Head & Neck",
+      "question_text": "The pretracheal layer of deep cervical fascia encloses all of the following except:",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Oesophagus",
+        "b": "Sternocleidomastoid",
+        "c": "Sternohyoid",
+        "d": "Thyroid gland"
+      },
+      "correct_answer": "b",
+      "explanation": "The pretracheal layer of deep cervical fascia does not enclose the sternocleidomastoid. SCM is enclosed by the investing layer of deep cervical fascia. The pretracheal layer encloses the thyroid gland, trachea, oesophagus, and infrahyoid muscles (sternohyoid, sternothyroid, thyrohyoid, omohyoid)."
+    },
+    {
+      "id": "AIIMS_2020_Q11",
+      "exam": "AIIMS 2020",
+      "question_number": 11,
+      "topic": "Head & Neck",
+      "question_text": "All of the following are the contents of the carotid sheath except?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Sympathetic chain",
+        "b": "Carotid artery",
+        "c": "Internal jugular vein",
+        "d": "10th cranial nerve"
+      },
+      "correct_answer": "a",
+      "explanation": "The sympathetic chain is not a content of the carotid sheath. It lies posterior to the carotid sheath. Contents of the carotid sheath: Common carotid artery (and internal carotid artery above), Internal jugular vein, Vagus nerve (10th cranial nerve), and deep cervical lymph nodes."
+    },
+    {
+      "id": "AIIMS_2020_Q12",
+      "exam": "AIIMS 2020",
+      "question_number": 12,
+      "topic": "Head & Neck",
+      "question_text": "A patient presented with paradoxical respiration. Which of the following nerves is most likely to be affected?",
+      "has_image": true,
+      "image_file": "AIIMS_2020_Q12.png",
+      "image_description": "Dissection of the neck showing thyroid gland with nerves labeled A, B, C, D",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D"
+      },
+      "correct_answer": "d",
+      "explanation": "Paradoxical respiration is caused by phrenic nerve injury leading to diaphragmatic paralysis. The nerve marked D in the image corresponds to the phrenic nerve. The phrenic nerve (C3, C4, C5) is the sole motor supply to the diaphragm. Injury leads to paradoxical movement where the diaphragm moves upward during inspiration."
+    },
+    {
+      "id": "AIIMS_2020_Q13",
+      "exam": "AIIMS 2020",
+      "question_number": 13,
+      "topic": "Upper Limb",
+      "question_text": "Which of the following muscles is attached to the area marked in the image below?",
+      "has_image": true,
+      "image_file": "AIIMS_2020_Q13.png",
+      "image_description": "Skeleton of the hand with a red highlighted area at the base of the first metacarpal (thumb)",
+      "options": {
+        "a": "Abductor pollicis longus",
+        "b": "Palmar interossei",
+        "c": "Opponens pollicis",
+        "d": "Flexor pollicis brevis"
+      },
+      "correct_answer": "c",
+      "explanation": "The area marked is the shaft of the first metacarpal bone. Opponens pollicis is attached to this area. Opponens pollicis originates from the flexor retinaculum and trapezium and inserts on the entire length of the first metacarpal shaft on its radial side."
+    },
+    {
+      "id": "AIIMS_2020_Q14",
+      "exam": "AIIMS 2020",
+      "question_number": 14,
+      "topic": "Head & Neck",
+      "question_text": "Which of the following marked structures does not form part of the laryngeal skeleton?",
+      "has_image": true,
+      "image_file": "AIIMS_2020_Q14.png",
+      "image_description": "Sagittal section of the larynx with structures labeled A, B, C, D",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D"
+      },
+      "correct_answer": "a",
+      "explanation": "Structure A (hyoid bone) does not form part of the laryngeal skeleton. The laryngeal skeleton consists of cartilages: thyroid, cricoid, arytenoid, corniculate, cuneiform, and epiglottis. The hyoid bone is closely related but is not part of the laryngeal skeleton itself."
+    },
+    {
+      "id": "AIIMS_2020_Q15",
+      "exam": "AIIMS 2020",
+      "question_number": 15,
+      "topic": "Head & Neck",
+      "question_text": "Identify the foramen marked in the image below.",
+      "has_image": true,
+      "image_file": "AIIMS_2020_Q15.png",
+      "image_description": "Superior view of the sphenoid bone with a red arrow pointing to a foramen",
+      "options": {
+        "a": "Foramen rotundum",
+        "b": "Foramen ovale",
+        "c": "Vidian canal",
+        "d": "Foramen spinosum"
+      },
+      "correct_answer": "a",
+      "explanation": "The foramen marked in the image is the foramen rotundum. It transmits the maxillary nerve (V2 branch of trigeminal nerve). Foramen rotundum is located in the greater wing of the sphenoid bone and opens into the pterygopalatine fossa."
+    },
+    {
+      "id": "AIIMS_2020_Q16",
+      "exam": "AIIMS 2020",
+      "question_number": 16,
+      "topic": "Histology",
+      "question_text": "Reticular fibres are not present in which of the following structures?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Thymus",
+        "b": "Lymph node",
+        "c": "Bone marrow",
+        "d": "Spleen"
+      },
+      "correct_answer": "a",
+      "explanation": "Reticular fibres are not present in the thymus. The thymus has an epithelial framework (epithelioreticular cells) rather than a reticular fiber framework. Reticular fibers form the supporting framework of lymph nodes, spleen, and bone marrow."
+    },
+    {
+      "id": "AIIMS_2020_Q17",
+      "exam": "AIIMS 2020",
+      "question_number": 17,
+      "topic": "Upper Limb",
+      "question_text": "Which of the following muscles is not involved in the overhead abduction of the arm?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Serratus anterior",
+        "b": "Deltoid",
+        "c": "Trapezius",
+        "d": "Pectoralis major"
+      },
+      "correct_answer": "d",
+      "explanation": "Pectoralis major is not involved in overhead abduction of the arm. It is an adductor, medial rotator, and flexor of the arm. Overhead abduction (above 90 degrees) requires: Deltoid and supraspinatus (0-90 degrees), then Serratus anterior and Trapezius rotate the scapula to allow abduction beyond 90 degrees."
+    },
+    {
+      "id": "AIIMS_2020_Q18",
+      "exam": "AIIMS 2020",
+      "question_number": 18,
+      "topic": "Histology",
+      "question_text": "The structures marked in the image below are found in the epithelial lining of all of the following sites, except:",
+      "has_image": true,
+      "image_file": "AIIMS_2020_Q18.png",
+      "image_description": "Histological section showing ciliated pseudostratified columnar epithelium with goblet cells, arrow pointing to cilia",
+      "options": {
+        "a": "Oviduct",
+        "b": "Epididymis",
+        "c": "Bronchi",
+        "d": "Ependyma"
+      },
+      "correct_answer": "b",
+      "explanation": "The structures marked are cilia. The epididymis has stereocilia (long non-motile microvilli), not true cilia. True cilia are found in the oviduct (fallopian tube), bronchi, and ependyma (lining of brain ventricles). Stereocilia in the epididymis help in absorption of fluid and are structurally different from true motile cilia."
+    },
+    {
+      "id": "AIIMS_2020_Q19",
+      "exam": "AIIMS 2020",
+      "question_number": 19,
+      "topic": "Head & Neck",
+      "question_text": "Which of the following bony structures is present behind the marked area?",
+      "has_image": true,
+      "image_file": "AIIMS_2020_Q19.png",
+      "image_description": "Lateral view of the skull with an arrow pointing to a region near the orbit/pterion area and a circled structure",
+      "options": {
+        "a": "Post clivus",
+        "b": "Lesser wing of sphenoid",
+        "c": "Sella turcica",
+        "d": "Carotid canal"
+      },
+      "correct_answer": "b",
+      "explanation": "The bony structure present behind the marked area is the lesser wing of sphenoid."
+    },
+    {
+      "id": "AIIMS_2020_Q20",
+      "exam": "AIIMS 2020",
+      "question_number": 20,
+      "topic": "Head & Neck",
+      "question_text": "All of the following nerves are involved in the movement of the eyeball except:",
+      "has_image": true,
+      "image_file": "AIIMS_2020_Q20.png",
+      "image_description": "Diagram showing cranial nerves exiting the cranial cavity with structures labeled A, B, C, D",
+      "options": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D"
+      },
+      "correct_answer": "a",
+      "explanation": "Structure A represents the optic nerve (CN II) which is not involved in the movement of the eyeball. It carries visual sensory information. The nerves that move the eyeball are: Oculomotor (CN III), Trochlear (CN IV), and Abducens (CN VI)."
+    },
+    {
+      "id": "AIIMS_2020_Q21",
+      "exam": "AIIMS 2020",
+      "question_number": 21,
+      "topic": "Upper Limb",
+      "question_text": "The middle radioulnar joint is an example of a:",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Plane synovial",
+        "b": "Primary cartilaginous",
+        "c": "Secondary cartilaginous",
+        "d": "Fibrous joint"
+      },
+      "correct_answer": "d",
+      "explanation": "The middle radioulnar joint is a fibrous joint (syndesmosis). It is formed by the interosseous membrane between the radius and ulna. The superior radioulnar joint is a pivot synovial joint and the inferior radioulnar joint is also a pivot synovial joint."
+    },
+    {
+      "id": "AIIMS_2020_Q22",
+      "exam": "AIIMS 2020",
+      "question_number": 22,
+      "topic": "Lower Limb",
+      "question_text": "What is the action of the muscle at the hip, which is attached to the marked area in the image below.",
+      "has_image": true,
+      "image_file": "AIIMS_2020_Q22.png",
+      "image_description": "Photograph of the proximal femur with an arrow pointing to the lesser trochanter area",
+      "options": {
+        "a": "Abduction and external rotation",
+        "b": "Extension and lateral rotation",
+        "c": "Extension, adduction, and lateral rotation",
+        "d": "Flexion and abduction"
+      },
+      "correct_answer": "b",
+      "explanation": "The marked area is the lesser trochanter. The iliopsoas muscle inserts here. The iliopsoas is a powerful flexor of the hip joint. However, looking at the answer key (b), this corresponds to extension and lateral rotation, which would relate to the gluteus maximus inserting on the gluteal tuberosity nearby."
+    },
+    {
+      "id": "AIIMS_2020_Q23",
+      "exam": "AIIMS 2020",
+      "question_number": 23,
+      "topic": "Thorax",
+      "question_text": "Identify the level of the cross-section shown in the image below.",
+      "has_image": true,
+      "image_file": "AIIMS_2020_Q23.png",
+      "image_description": "Axial cross-section of the thorax showing heart chambers, great vessels, and vertebral body",
+      "options": {
+        "a": "T1 - T2",
+        "b": "T2 - T3",
+        "c": "T3 - T4",
+        "d": "T4 - T5"
+      },
+      "correct_answer": "c",
+      "explanation": "The cross-section shown is at the level of T3-T4. At this level, the aortic arch, superior vena cava, trachea, and esophagus are visible. The arch of the aorta begins and ends at the level of the sternal angle (T4 vertebral level)."
+    },
+    {
+      "id": "AIIMS_2020_Q24",
+      "exam": "AIIMS 2020",
+      "question_number": 24,
+      "topic": "Upper Limb",
+      "question_text": "A patient is unable to abduct his arm. Which of the following root values is likely to be affected?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "C4",
+        "b": "C5",
+        "c": "C6",
+        "d": "C7"
+      },
+      "correct_answer": "b",
+      "explanation": "C5 root value is likely to be affected in inability to abduct the arm. The deltoid (main abductor) is supplied by the axillary nerve (C5, C6), and the supraspinatus (initiates abduction) is supplied by the suprascapular nerve (C5, C6). C5 is the primary root for both."
+    },
+    {
+      "id": "NEET_2018_Q01",
+      "exam": "NEET 2018",
+      "question_number": 1,
+      "topic": "Head & Neck",
+      "question_text": "Identify the thickened nerve marked in the arrow in the image shown below:",
+      "has_image": true,
+      "image_file": "NEET_2018_Q01.png",
+      "image_description": "Two photographs of the neck showing a thickened nerve visible over the sternocleidomastoid muscle, with arrows pointing to it (L and R views)",
+      "options": {
+        "a": "Great auricular nerve",
+        "b": "Lesser occipital nerve",
+        "c": "Facial nerve",
+        "d": "Auriculotemporal nerve"
+      },
+      "correct_answer": "a",
+      "explanation": "The thickened nerve marked is the great auricular nerve. The thickened nerve visible below it is the transverse cervical nerve. Nerve thickening in this case is likely due to leprosy. The great auricular nerve is the largest ascending branch of the cervical plexus, arising from C2 and C3. It winds over the posterior border of SCM and ascends upwards. Anterior branch supplies facial skin over the parotid gland. Posterior branch supplies skin over the mastoid process, posteroinferior part of the auricle, and concha. Clinical: In leprosy, the nerve is palpable over the upper part of SCM. Frey's syndrome involves aberrant connection between the auriculotemporal nerve and great auricular nerve causing gustatory sweating."
+    },
+    {
+      "id": "NEET_2018_Q02",
+      "exam": "NEET 2018",
+      "question_number": 2,
+      "topic": "Neuroanatomy",
+      "question_text": "Broca's area is situated in the __________.",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Inferior frontal gyrus",
+        "b": "Superior temporal gyrus",
+        "c": "Angular gyrus",
+        "d": "Postcentral gyrus"
+      },
+      "correct_answer": "a",
+      "explanation": "Broca's area is situated in the inferior frontal gyrus. Broca's motor speech area (Brodmann areas 44, 45) is located in the inferior frontal gyrus. Wernicke's area (area 22) is located in the superior temporal gyrus."
+    },
+    {
+      "id": "NEET_2018_Q03",
+      "exam": "NEET 2018",
+      "question_number": 3,
+      "topic": "Head & Neck",
+      "question_text": "Which of the following cranial nerve nuclei is not a part of the special visceral afferent (SVA) column?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Facial nerve",
+        "b": "Trochlear nerve",
+        "c": "Vagus nerve",
+        "d": "Glossopharyngeal nerve"
+      },
+      "correct_answer": "b",
+      "explanation": "The trochlear nerve nucleus is a part of the general somatic efferent (GSE) column, not the special visceral afferent column. The trochlear nerve is a motor nerve that innervates the superior oblique muscle in the orbit. The neurons of the GSE column innervate the extrinsic ocular muscles and muscles of the tongue (CN III, IV, VI, and XII). The SVA column includes facial (VII), glossopharyngeal (IX), and vagus (X) nerves."
+    },
+    {
+      "id": "NEET_2018_Q04",
+      "exam": "NEET 2018",
+      "question_number": 4,
+      "topic": "Thorax",
+      "question_text": "The joint between the attachment of the 8th and 9th rib to the 7th rib is a:",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Fibrocartilaginous joint",
+        "b": "Symphyseal joint",
+        "c": "Synovial joint",
+        "d": "Fibrous joint"
+      },
+      "correct_answer": "c",
+      "explanation": "The interchondral joint between the 8th and 9th rib with the 7th rib is a synovial joint. Joints in the thoracic cavity include: Synarthrosis (1st sternocostal joint), Synchondrosis/primary cartilaginous (costochondral joints), Symphysis/secondary cartilaginous (manubriosternal and xiphisternal joints), and Synovial joints (interchondral, sternocostal, costovertebral, costotransverse). Note: The interchondral joint between the 9th and 10th cartilages is never synovial and sometimes absent."
+    },
+    {
+      "id": "NEET_2018_Q05",
+      "exam": "NEET 2018",
+      "question_number": 5,
+      "topic": "Osteology",
+      "question_text": "Which is the last fontanelle to close?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Anterior",
+        "b": "Posterior",
+        "c": "Occipital",
+        "d": "Mastoid"
+      },
+      "correct_answer": "a",
+      "explanation": "The anterior fontanelle is the last fontanelle to close, at around 18-24 months of age. Fontanelles of the skull: Anterior (between frontal and parietal bones, closes 18-24 months), Posterior (sagittal and lambdoid sutures, closes 2-3 months), Sphenoid (at pterion, closes 2-3 months), Mastoid/Posterolateral (intersection of temporal, parietal, and occipital bones, closes 6-18 months, average 12 months)."
+    },
+    {
+      "id": "NEET_2018_Q06",
+      "exam": "NEET 2018",
+      "question_number": 6,
+      "topic": "Thorax",
+      "question_text": "Which among the following is incorrect regarding Sibson's fascia?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Attached to the inner border of 2nd rib",
+        "b": "Covers apical part of lung",
+        "c": "Part of scalenus minimus muscle",
+        "d": "Vessels pass above the fascia"
+      },
+      "correct_answer": "a",
+      "explanation": "Sibson's fascia is attached to the inner border of the 1st rib, not the 2nd rib. Sibson's fascia (suprapleural membrane) serves as a plane of separation between the lower neck and the thorax and covers the apical part of the lung. It is attached to the inner border of the 1st rib and posteriorly to the anterior border of the transverse process of the C7 vertebra. It is strengthened by muscular fibers derived from the scalene muscles. The subclavian vessels lie on top of it."
+    },
+    {
+      "id": "NEET_2018_Q07",
+      "exam": "NEET 2018",
+      "question_number": 7,
+      "topic": "Thorax",
+      "question_text": "The structure not passing through the aortic opening of the diaphragm is:",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Aorta",
+        "b": "Azygous vein",
+        "c": "Thoracic duct",
+        "d": "Vagal trunk"
+      },
+      "correct_answer": "d",
+      "explanation": "The vagal trunk does not pass through the aortic opening of the diaphragm. It passes through the esophageal opening at the level of T10 vertebra. The aortic opening (T12 level) transmits: Aorta, Thoracic duct, and Azygos vein."
+    },
+    {
+      "id": "NEET_2018_Q08",
+      "exam": "NEET 2018",
+      "question_number": 8,
+      "topic": "Head & Neck",
+      "question_text": "The hard palate contains _________",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Keratinised epithelium, submucosa, minor salivary glands",
+        "b": "Keratinised epithelium, absent submucosa, no salivary glands",
+        "c": "Non-keratinised epithelium, submucosa, minor salivary glands",
+        "d": "Non-keratinised epithelium, absent submucosa, minor salivary glands"
+      },
+      "correct_answer": "a",
+      "explanation": "The hard palate contains keratinised stratified squamous epithelium, has a submucosa, and contains minor salivary glands. The keratinised stratified squamous epithelium has regional variations and may be orthokeratinised or parakeratinised. The bony structure is covered by a firmly attached mucosa in the central part. In the lateral parts, there is a submucosal layer containing blood vessels. Minor mucous type salivary glands are present in the submucosa in the posterior part of the hard palate."
+    },
+    {
+      "id": "NEET_2018_Q09",
+      "exam": "NEET 2018",
+      "question_number": 9,
+      "topic": "Upper Limb",
+      "question_text": "What is the function of the muscle marked as A in the image below, at the metacarpophalangeal joint?",
+      "has_image": true,
+      "image_file": "NEET_2018_Q09.png",
+      "image_description": "Dissection of the palm showing hand muscles with structures labeled A, B, C, D. A points to the lumbrical muscles",
+      "options": {
+        "a": "Flexion",
+        "b": "Extension",
+        "c": "Adduction",
+        "d": "Abduction"
+      },
+      "correct_answer": "a",
+      "explanation": "The muscle marked 'A' is lumbricals and they cause flexion at the metacarpophalangeal joints. Lumbricals are intrinsic muscles of the hand that flex the MCP joints and extend the interphalangeal joints (PIP & DIP). They originate from flexor digitorum profundus. The lateral two are unipennate, supplied by the median nerve. The medial two are bipennate, supplied by the ulnar nerve."
+    },
+    {
+      "id": "NEET_2018_Q10",
+      "exam": "NEET 2018",
+      "question_number": 10,
+      "topic": "Head & Neck",
+      "question_text": "Which among the following is a tensor of vocal cords?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Cricothyroid",
+        "b": "Lateral cricoarytenoid",
+        "c": "Thyroarytenoids",
+        "d": "Posterior cricoarytenoids"
+      },
+      "correct_answer": "a",
+      "explanation": "Cricothyroid is a tensor of vocal cords. It tilts the thyroid cartilage forward on the cricoid, increasing the distance between the vocal process and the thyroid angle, thus tensing the vocal cords. It is the only intrinsic laryngeal muscle supplied by the external laryngeal nerve (branch of superior laryngeal nerve). All other intrinsic laryngeal muscles are supplied by the recurrent laryngeal nerve."
+    },
+    {
+      "id": "NEET_2018_Q11",
+      "exam": "NEET 2018",
+      "question_number": 11,
+      "topic": "Embryology",
+      "question_text": "The nerve of the second branchial arch is:",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Glossopharyngeal nerve",
+        "b": "Trigeminal nerve",
+        "c": "Facial nerve",
+        "d": "Vagal nerve"
+      },
+      "correct_answer": "c",
+      "explanation": "The facial nerve is the nerve of the 2nd pharyngeal arch. Each pharyngeal arch is characterized by its own muscular components. The muscular components of each arch have their own cranial nerve. Wherever the muscle cells migrate, they carry their nerve component with them. The neurons of the 5th, 7th, 9th, and 10th cranial sensory ganglia that supply the pharyngeal arch structures are derived from ectodermal placodes and from the neural crest cells."
+    },
+    {
+      "id": "NEET_2018_Q12",
+      "exam": "NEET 2018",
+      "question_number": 12,
+      "topic": "Abdomen & Pelvis",
+      "question_text": "Which of the following statements is true about the iliopubic tract?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "It is a thickening of the lumbar fascia",
+        "b": "It lies anterior to the Poupart's ligament",
+        "c": "It inserts into the pubic tubercle in front of the conjoint tendon",
+        "d": "Its fibers fan out with fascia iliaca laterally"
+      },
+      "correct_answer": "d",
+      "explanation": "The fibers of the iliopubic tract fan out with fascia iliaca laterally. The iliopubic tract is a thickening of the transversalis fascia lying immediately posterior to the inguinal (Poupart's) ligament. It extends from the anterior superior iliac spine (ASIS) superolaterally and arches across the front of the femoral sheath. Medially, its fibres insert by a broad attachment into the pubic tubercle and pectineal line, behind the conjoint tendon. Laterally, its fibres fan out within the fascia transversalis and fascia iliaca without bony attachment to the iliac spines. It is an important landmark in laparoscopic hernia surgeries."
+    },
+    {
+      "id": "NEET_2018_Q13",
+      "exam": "NEET 2018",
+      "question_number": 13,
+      "topic": "Embryology",
+      "question_text": "Ureteric bud develops from:",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Mesonephric duct",
+        "b": "Metanephros",
+        "c": "Pronephros",
+        "d": "Genital sinus"
+      },
+      "correct_answer": "a",
+      "explanation": "Ureteric bud develops from the Mesonephric duct. Intermediate mesoderm develops into the Genital ridge and Nephrogenic cord. Nephrogenic cord further develops into Pronephros, Mesonephros and Metanephros. Ureteric bud develops from mesonephros which later fuses with Mesonephric duct. Metanephros proliferates around the ureteric bud forming metanephric blastema (definitive kidneys). Metanephric blastema gives rise to Bowman's capsule, proximal convoluted tubule, loop of Henle, and distal convoluted tubule. Ureteric bud gives rise to collecting tubules, renal papillae, calyces, renal pelvis, and ureter."
+    },
+    {
+      "id": "NEET_2018_Q14",
+      "exam": "NEET 2018",
+      "question_number": 14,
+      "topic": "Embryology",
+      "question_text": "The heart starts to beat in the ______ week of development.",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "2nd week",
+        "b": "4th week",
+        "c": "6th week",
+        "d": "10th week"
+      },
+      "correct_answer": "b",
+      "explanation": "The heart starts to beat in the 4th week of development."
+    },
+    {
+      "id": "NEET_2019_Q01",
+      "exam": "NEET 2019",
+      "question_number": 1,
+      "topic": "Back & Vertebral Column",
+      "question_text": "The movements at the ____________ joint permit a person to look to the right and left.",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Atlanto-occipital",
+        "b": "Atlanto-axial",
+        "c": "C2-C3",
+        "d": "C3-C4"
+      },
+      "correct_answer": "b",
+      "explanation": "The movements at the atlanto-axial joint allow a person to look left and right. The atlanto-axial joints include 3 synovial joints: Median atlanto-axial joint (central pivot joint between the dens of the axis and a ring formed by the anterior arch and transverse atlantal ligament) and Lateral atlanto-axial joints (plain synovial joints between lateral masses of atlas and upper facets of the body of axis). Movements at the atlanto-axial joint almost exclusively is rotation around the axis, which helps side-to-side rotation of the head. The normal range of atlanto-axial rotation is about 40\u00b0."
+    },
+    {
+      "id": "NEET_2019_Q02",
+      "exam": "NEET 2019",
+      "question_number": 2,
+      "topic": "Thorax",
+      "question_text": "All of the following are true about the right coronary artery except ______",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "It's diameter is less than left coronary artery",
+        "b": "It arises from the anterior aortic sinus",
+        "c": "It gives rise to circumflex coronary branch",
+        "d": "Right conal artery is it's first branch"
+      },
+      "correct_answer": "c",
+      "explanation": "The right coronary artery does not give rise to the circumflex coronary artery. The right coronary artery arises from the anterior aortic sinus (right coronary sinus) of the ascending aorta. It passes anteriorly and descends vertically in the coronary sulcus between the right atrium and the right ventricle. On reaching the inferior margin, it turns posteriorly and continues in the sulcus onto the diaphragmatic surface and the base of the heart. The diameter of the right coronary artery is less than that of the left coronary artery. The right conal artery is usually the first branch of the right coronary artery. The circumflex coronary artery is a branch of the left coronary artery and is the exclusive supplier to the right bundle branch."
+    },
+    {
+      "id": "NEET_2019_Q03",
+      "exam": "NEET 2019",
+      "question_number": 3,
+      "topic": "Embryology",
+      "question_text": "What is the basis for the formation of omphalocele?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Excessive length of the intestine",
+        "b": "Physiological hernia failing to go back",
+        "c": "Herniation of liver",
+        "d": "Herniation of umbilicus"
+      },
+      "correct_answer": "b",
+      "explanation": "Omphalocele is protrusion of abdominal contents through the umbilical ring. It is due to failure of physiological hernia to reduce into the abdominal cavity, which results in non-closure of the umbilical ring. An omphalocele may contain stomach, liver, and intestines, and these contents are enclosed in a sac. Omphalocele is usually associated with other congenital anomalies (e.g., trisomy 13, trisomy 18, or Beckwith-Wiedemann syndrome) and with increased levels of alpha-fetoprotein. Note: In gastroschisis, there is an absence of a membranous sac and is paraumbilical."
+    },
+    {
+      "id": "NEET_2019_Q04",
+      "exam": "NEET 2019",
+      "question_number": 4,
+      "topic": "Neuroanatomy",
+      "question_text": "Which fibre is marked by the arrow in the image given below?",
+      "has_image": true,
+      "image_file": "NEET_2019_Q04.png",
+      "image_description": "Horizontal section of cerebral hemispheres showing the internal capsule, caudate nucleus, lentiform nucleus, and thalamus. An arrow points to the internal capsule region between the lentiform nucleus and the thalamus/caudate nucleus.",
+      "options": {
+        "a": "Short association",
+        "b": "Long association",
+        "c": "Projection",
+        "d": "Commissural"
+      },
+      "correct_answer": "c",
+      "explanation": "The marked structure is the internal capsule, which is a form of projection fiber. Projection fibers connect the cerebral cortex with subcortical structures and the spinal cord. The internal capsule is a white matter structure situated between the caudate nucleus and thalamus medially, and the lentiform nucleus laterally."
+    },
+    {
+      "id": "NEET_2019_Q05",
+      "exam": "NEET 2019",
+      "question_number": 5,
+      "topic": "Head & Neck",
+      "question_text": "Which nerve passes through the foramen marked in the image below?",
+      "has_image": true,
+      "image_file": "NEET_2019_Q05.png",
+      "image_description": "3D rendering of a mandible (jawbone) with a red marker highlighting the mandibular foramen on the medial surface of the ramus.",
+      "options": {
+        "a": "Lingual nerve",
+        "b": "Mandibular nerve",
+        "c": "Chorda tympani nerve",
+        "d": "Inferior alveolar nerve"
+      },
+      "correct_answer": "d",
+      "explanation": "The marked structure is the mandibular foramen and the inferior alveolar nerve passes through it. The inferior alveolar nerve (IAN), a branch of the mandibular nerve (CN V3), descends behind the lateral pterygoid. At the lower border of the muscle, the nerve passes between the sphenomandibular ligament and the mandibular ramus and enters the mandibular canal via the mandibular foramen. The mandibular foramen is located above the mandibular angle, the opening through which the IAN and the vessels of the mandible pass. The IAN continues its course through the mandibular canal and then branches off to supply the lower teeth, gums, and lower lip."
+    },
+    {
+      "id": "NEET_2019_Q06",
+      "exam": "NEET 2019",
+      "question_number": 6,
+      "topic": "Abdomen & Pelvis",
+      "question_text": "Boundaries of Calot triangle are formed by all except:",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Common hepatic duct",
+        "b": "Cystic duct",
+        "c": "Cystic artery",
+        "d": "Gall bladder"
+      },
+      "correct_answer": "d",
+      "explanation": "The gall bladder does not form a boundary of Calot's triangle. Calot's triangle is bounded by the 3C's: Medially - Common hepatic duct, Inferiorly - Cystic duct, Superiorly - Cystic artery."
+    },
+    {
+      "id": "NEET_2019_Q07",
+      "exam": "NEET 2019",
+      "question_number": 7,
+      "topic": "General Anatomy",
+      "question_text": "Area marked in the given image is supplied by dermatome number?",
+      "has_image": true,
+      "image_file": "NEET_2019_Q07.png",
+      "image_description": "Diagram of the anterior trunk showing dermatome distribution with colored horizontal bands. A question mark arrow points to the area at the level of the umbilicus (highlighted in pink/red).",
+      "options": {
+        "a": "T8",
+        "b": "T9",
+        "c": "T10",
+        "d": "T11"
+      },
+      "correct_answer": "c",
+      "explanation": "The marked dermatome which includes the umbilicus is supplied by T10. The dermatomal distribution of the abdominal region is as follows: T7, T8, T9 - supplies skin from the xiphoid process to just above the umbilicus. T10 - supplies skin around the umbilicus. T11, T12 - supplies skin below the umbilicus up to the suprapubic region. L1 - supplies skin around the genitalia and upper medial thigh."
+    },
+    {
+      "id": "NEET_2019_Q08",
+      "exam": "NEET 2019",
+      "question_number": 8,
+      "topic": "Upper Limb",
+      "question_text": "The arrow in the image denotes which of the following muscles?",
+      "has_image": true,
+      "image_file": "NEET_2019_Q08.png",
+      "image_description": "Anatomical illustration of the posterior forearm and hand showing extensor muscles. An arrow with a question mark points to a muscle on the lateral (radial) side of the forearm near the elbow region.",
+      "options": {
+        "a": "Extensor carpi radialis longus",
+        "b": "Brachioradialis",
+        "c": "Supinator",
+        "d": "Flexor carpi radialis brevis"
+      },
+      "correct_answer": "a",
+      "explanation": "The arrow shows extensor carpi radialis longus. It originates from the distal third of the lateral supracondylar ridge of the humerus and inserts at the second metacarpal (radial side). It is innervated by the radial nerve, C6, and C7. The vascular supply is by radial recurrent artery and it is responsible for the extension and abduction of the wrist joint."
+    },
+    {
+      "id": "NEET_2019_Q09",
+      "exam": "NEET 2019",
+      "question_number": 9,
+      "topic": "Upper Limb",
+      "question_text": "What is the nerve supply of the structure marked in the image below?",
+      "has_image": true,
+      "image_file": "NEET_2019_Q09.png",
+      "image_description": "Anatomical illustration of the palmar surface of the hand showing superficial muscles. An arrow with a question mark points to the second lumbrical muscle.",
+      "options": {
+        "a": "Posterior interosseus nerve",
+        "b": "Median nerve",
+        "c": "Anterior interosseus nerve",
+        "d": "Ulnar nerve"
+      },
+      "correct_answer": "b",
+      "explanation": "The marked structure is the second lumbrical which is supplied by the median nerve. The lateral two lumbricals are supplied by the median nerve and the medial two are supplied by the ulnar nerve. Function of these muscles is flexion at the metacarpophalangeal joints and extension at both the interphalangeal joints."
+    },
+    {
+      "id": "NEET_2019_Q10",
+      "exam": "NEET 2019",
+      "question_number": 10,
+      "topic": "Upper Limb",
+      "question_text": "Nerve supply of the area marked by arrow in the image is:",
+      "has_image": true,
+      "image_file": "NEET_2019_Q10.png",
+      "image_description": "Diagram of the hand and fingers showing cutaneous nerve supply zones color-coded in different colors. An arrow points to the dorsal/lateral area of the hand and proximal fingers supplied by the radial nerve.",
+      "options": {
+        "a": "Radial nerve",
+        "b": "Posterior interosseus nerve",
+        "c": "Median nerve",
+        "d": "Ulnar nerve"
+      },
+      "correct_answer": "a",
+      "explanation": "The area marked in the image is supplied by the radial nerve. The radial nerve supplies the skin over the dorsum of the hand on the lateral (radial) side, including the dorsal aspect of the thumb, index finger, middle finger, and lateral half of the ring finger up to the proximal phalanges."
+    },
+    {
+      "id": "NEET_2019_Q11",
+      "exam": "NEET 2019",
+      "question_number": 11,
+      "topic": "Abdomen & Pelvis",
+      "question_text": "Cholecysto-vena caval line separates which of the following?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Gallbladder and inferior vena cava",
+        "b": "Porta hepatis and inferior vena cava",
+        "c": "Caudate lobe and quadrangular lobe",
+        "d": "Right and left lobe of liver"
+      },
+      "correct_answer": "d",
+      "explanation": "Cholecysto-vena caval line (Cantlie line) separates right and left lobe of the liver. Cantlie line is an imaginary line that divides the liver into 2 planes. It extends from the midpoint of the gallbladder fossa at the inferior margin of the liver back to the midpoint of the inferior vena cava (IVC) and contains the middle hepatic vein."
+    },
+    {
+      "id": "NEET_2019_Q12",
+      "exam": "NEET 2019",
+      "question_number": 12,
+      "topic": "Histology",
+      "question_text": "Which of the following is false about skin?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Dermis is derived from ectoderm",
+        "b": "Skin accounts for 15% of total body weight",
+        "c": "Epidermis is derived from ectoderm",
+        "d": "Dermis is made up of type 1 and type 3 collagen"
+      },
+      "correct_answer": "a",
+      "explanation": "Dermis is derived from mesoderm and epidermis is derived from ectoderm. The statement that dermis is derived from ectoderm is false."
+    },
+    {
+      "id": "NEET_2019_Q13",
+      "exam": "NEET 2019",
+      "question_number": 13,
+      "topic": "Abdomen & Pelvis",
+      "question_text": "All of the following structures are derived from the aponeurosis of the external oblique muscle except:",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Pectineal ligament",
+        "b": "Inguinal ligament",
+        "c": "Lacunar ligament",
+        "d": "Linea semilunaris"
+      },
+      "correct_answer": "d",
+      "explanation": "Linea semilunaris is derived from the aponeurosis of the internal oblique muscle. Pectineal ligament, inguinal ligament and lacunar ligament are derived from the external oblique aponeurosis."
+    },
+    {
+      "id": "NEET_2019_Q14",
+      "exam": "NEET 2019",
+      "question_number": 14,
+      "topic": "Abdomen & Pelvis",
+      "question_text": "Which of the following lobes of the prostate forms the uvula vesicae?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Anterior",
+        "b": "Posterior",
+        "c": "Median",
+        "d": "Lateral"
+      },
+      "correct_answer": "c",
+      "explanation": "The median lobe of the prostate forms the uvula vesicae. Uvula vesicae is an elevation in the mucous membrane of the urinary bladder, behind the internal urethral orifice. It is often enlarged in benign prostatic hypertrophy."
+    },
+    {
+      "id": "NEET_2019_Q15",
+      "exam": "NEET 2019",
+      "question_number": 15,
+      "topic": "Lower Limb",
+      "question_text": "Foot drop is caused by damage to:",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Common peroneal nerve",
+        "b": "Femoral nerve",
+        "c": "Tibial nerve",
+        "d": "Sciatic nerve"
+      },
+      "correct_answer": "a",
+      "explanation": "Foot drop is caused by damage to the common peroneal nerve. The common peroneal nerve is a component of the sciatic nerve. In the posterior thigh, it supplies the short head of the biceps femoris. It curves around the neck of the fibula deep to peroneus longus and divides into superficial and deep peroneal nerves. The superficial peroneal nerve innervates peroneus longus and peroneus brevis (evertors of the foot) and skin over the dorsal area of the foot except for the first webspace and lateral side of the little toe. The deep peroneal nerve innervates all muscles of the anterior compartment (dorsiflexors of the foot), extensor digitorum brevis, first two dorsal interossei muscles, and skin between great and second toes. Hence, injury to the common peroneal nerve leads to: weakness of dorsiflexion (foot drop), loss of eversion, loss of extension of toes, and sensory loss over the anterior and lateral side of the leg and dorsum of the foot."
+    },
+    {
+      "id": "NEET_2019_Q16",
+      "exam": "NEET 2019",
+      "question_number": 16,
+      "topic": "Upper Limb",
+      "question_text": "Which of the following is true regarding De Quervain's tenosynovitis?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Fingers are held in mild extension",
+        "b": "It affects APL and EPB",
+        "c": "Most common involvement is index finger",
+        "d": "Treatment is surgery"
+      },
+      "correct_answer": "b",
+      "explanation": "De Quervain's disease is a stenosing tenosynovitis of the extensor tendons of the first dorsal compartment, namely extensor pollicis brevis (EPB) and abductor pollicis longus (APL). It is prominent among females, especially pregnant women. Most commonly the thumb is involved. Finkelstein's test: On grasping the patient's thumb and quickly abducting the hand ulnar ward, the pain over the radial styloid tip is excruciating. It is the most pathognomonic objective sign. Treatment: Majority of patients are treated medically. Only few require the release of the 1st dorsal compartment which houses the APL and EPB tendons."
+    },
+    {
+      "id": "NEET_2019_Q17",
+      "exam": "NEET 2019",
+      "question_number": 17,
+      "topic": "Neuroanatomy",
+      "question_text": "Identify the structure marked B in the image given below:",
+      "has_image": true,
+      "image_file": "NEET_2019_Q17.png",
+      "image_description": "Midsagittal section of the brain showing labeled structures: A (Corpus Callosum), B (structure below corpus callosum), C (Pituitary Gland), and D (Cerebellum). Structure B is located beneath the corpus callosum in the region of the fornix.",
+      "options": {
+        "a": "Pineal gland",
+        "b": "Falx cerebri",
+        "c": "Fornix",
+        "d": "Pituitary gland"
+      },
+      "correct_answer": "c",
+      "explanation": "The image shows a midsagittal section of the brain. The structure marked B is the Fornix. A = Corpus Callosum, B = Fornix, C = Pituitary Gland, D = Cerebellum. The fornix is an arched bundle of white matter fibers that connects the hippocampus to the mammillary bodies and is part of the limbic system."
+    },
+    {
+      "id": "NEET_2019_Q18",
+      "exam": "NEET 2019",
+      "question_number": 18,
+      "topic": "Embryology",
+      "question_text": "1st pharyngeal arch gives rise to all except:",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Medial pterygoids",
+        "b": "Levator veli palatini",
+        "c": "Lateral pterygoids",
+        "d": "Tensor veli palatini"
+      },
+      "correct_answer": "b",
+      "explanation": "Levator veli palatini is not derived from the first pharyngeal arch. All soft palate muscles including levator veli palatini are derived from the 4th pharyngeal arch and are supplied by the vagal plexus. The first pharyngeal arch gives rise to: muscles of mastication (temporalis, masseter, lateral and medial pterygoids), mylohyoid, anterior belly of digastric, tensor tympani, tensor veli palatini, and anterior 2/3 of tongue."
+    },
+    {
+      "id": "NEET_2020_Q01",
+      "exam": "NEET 2020",
+      "question_number": 1,
+      "topic": "Upper Limb",
+      "question_text": "Which of the following forms the lateral boundary of the anatomical snuff box?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Extensor pollicis brevis and abductor pollicis longus",
+        "b": "Extensor pollicis longus and abductor pollicis brevis",
+        "c": "Extensor pollicis longus and extensor pollicis brevis",
+        "d": "Abductor pollicis longus and abductor pollicis brevis"
+      },
+      "correct_answer": "a",
+      "explanation": "The lateral boundary of the anatomical snuff box is formed by extensor pollicis brevis and abductor pollicis longus. Boundaries of the anatomical snuffbox: Lateral wall - Abductor pollicis longus (APL) and Extensor pollicis brevis (EPB). Medial wall - Extensor pollicis longus (EPL). Roof - Cephalic vein and superficial branch of the radial nerve. Floor - Radial styloid, scaphoid, trapezium, and 1st metacarpal. Only content: Radial artery."
+    },
+    {
+      "id": "NEET_2020_Q02",
+      "exam": "NEET 2020",
+      "question_number": 2,
+      "topic": "Histology",
+      "question_text": "Identify the cell marked in the histological image of the cerebellum shown below:",
+      "has_image": true,
+      "image_file": "NEET_2020_Q02.png",
+      "image_description": "Histological image of the cerebellum stained with H&E showing layers of the cerebellar cortex. An arrow points to large flask-shaped cells at the junction between the molecular and granular layers - Purkinje cells.",
+      "options": {
+        "a": "Purkinje cells",
+        "b": "Basket cells",
+        "c": "Golgi cells",
+        "d": "Granule cell"
+      },
+      "correct_answer": "a",
+      "explanation": "The cells marked in the histological image are Purkinje cells. Purkinje cells are flask-shaped cells present in the Purkinje cell layer of the cerebellum. They are evenly spaced and arranged in a single layer. A dendrite arises from the neck of each cell, which passes upward to enter the molecular layer and branches extensively to form a dendritic tree. The axon passes downwards, crosses the granular cell layer to enter the white matter. Axons of Purkinje cells are the only efferents of the cerebellar cortex. Purkinje cells are inhibitory and use GABA as their neurotransmitter. Purkinje cells and neurons in pyramidal cell layers of hippocampus and cerebral cortex are the most sensitive neurons to hypoxia."
+    },
+    {
+      "id": "NEET_2020_Q03",
+      "exam": "NEET 2020",
+      "question_number": 3,
+      "topic": "Head & Neck",
+      "question_text": "Which of the following is not used for the identification of the facial nerve trunk?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Retrograde dissection from distal branch",
+        "b": "Tragal pointer",
+        "c": "Inferior belly of omohyoid muscle",
+        "d": "Posterior belly of digastric"
+      },
+      "correct_answer": "c",
+      "explanation": "The inferior belly of the omohyoid muscle is not used as an anatomical landmark for the identification of the facial nerve trunk. Methods for localization of the facial nerve trunk include: Anterograde method using tragal pointer/Conley's pointer, posterior belly of digastric, squamotympanic fissure, styloid process, and mastoid process. Retrograde method uses the main branches (buccal branch near parotid gland, marginal mandibular branch near facial vessels) traced proximally to identify the trunk."
+    },
+    {
+      "id": "NEET_2020_Q04",
+      "exam": "NEET 2020",
+      "question_number": 4,
+      "topic": "Embryology",
+      "question_text": "The false statement about fetal circulation is:",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Anatomical closure of foramen ovale is by 3 to 5 days",
+        "b": "Anatomical closure of ductus venosus is by 3 to 7 days",
+        "c": "Right umbilical vein is absent",
+        "d": "Anatomical closure of ductus arteriosus is by 2 to 3 weeks"
+      },
+      "correct_answer": "a",
+      "explanation": "The anatomical closure of the foramen ovale takes 1 month to a year, not 3 to 5 days. Fetal circulatory adjustments after birth: Ductus venosus - functional closure after removal of the placenta, anatomical closure by 7 days. Foramen ovale - functional closure at birth after breathing is initiated, anatomical closure takes months to years. Ductus arteriosus - functional closure by 10-15 hours, anatomical closure by 10-21 days."
+    },
+    {
+      "id": "NEET_2020_Q05",
+      "exam": "NEET 2020",
+      "question_number": 5,
+      "topic": "Abdomen & Pelvis",
+      "question_text": "A tumor of the uncinate process of the pancreas affects which of the following vessels?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Superior mesenteric artery",
+        "b": "Portal vein",
+        "c": "Common hepatic artery",
+        "d": "Inferior mesenteric artery"
+      },
+      "correct_answer": "a",
+      "explanation": "A tumor of the uncinate process of pancreas affects the superior mesenteric artery. The superior mesenteric artery arises from the abdominal aorta. It lies first behind the body of the pancreas and then in front of the uncinate process. Therefore, a tumor in the uncinate process would affect the superior mesenteric artery."
+    },
+    {
+      "id": "NEET_2020_Q06",
+      "exam": "NEET 2020",
+      "question_number": 6,
+      "topic": "Neuroanatomy",
+      "question_text": "A patient presented with clinical features of ataxia and incoordination. This is due to thrombosis of which artery?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Posterior cerebral",
+        "b": "Middle cerebral",
+        "c": "Internal carotid",
+        "d": "Superior cerebellar"
+      },
+      "correct_answer": "d",
+      "explanation": "Thrombosis of the superior cerebellar artery causes cerebellar lesion which presents with ataxia and incoordination. Blood supply of the cerebellum includes the superior cerebellar artery, posterior inferior cerebellar artery, and anterior inferior cerebellar artery."
+    },
+    {
+      "id": "NEET_2020_Q07",
+      "exam": "NEET 2020",
+      "question_number": 7,
+      "topic": "Head & Neck",
+      "question_text": "Which of the following structures prevents the upward extension of thyroid swelling through its attachment to the thyroid cartilage?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Pretracheal fascia",
+        "b": "Sternothyroid",
+        "c": "Thyrohyoid membrane",
+        "d": "Ligament of berry"
+      },
+      "correct_answer": "b",
+      "explanation": "Sternothyroid and sternohyoid prevent the upward extension of the thyroid swelling through their attachment to the thyroid cartilage. Pretracheal fascia encloses the thyroid gland and is attached to the larynx, responsible for the movement of the enlarged thyroid gland on deglutition. The thyrohyoid membrane is a fibro-elastic ligament arising from the superior margin of the thyroid cartilage to the hyoid bone, facilitating upward movement of the larynx during swallowing. The ligament of Berry (suspensory ligament) extends from the cricoid cartilage to the thyroid and prevents the thyroid gland from sinking into the mediastinum."
+    },
+    {
+      "id": "NEET_2020_Q08",
+      "exam": "NEET 2020",
+      "question_number": 8,
+      "topic": "Upper Limb",
+      "question_text": "A patient presented with the extension of MCP joint and flexion of IP joints. Which muscle is affected?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Extensor digitorum",
+        "b": "Interossei and lumbricals",
+        "c": "Abductor pollicis",
+        "d": "Abductor pollicis brevis"
+      },
+      "correct_answer": "b",
+      "explanation": "The lumbricals and interossei muscles are affected. These muscles, through their attachments to the dorsal digital expansions, cause flexion of the metacarpophalangeal (MCP) joints and extension of the interphalangeal (IP) joints. In cases of ulnar nerve injury, these muscles may get atrophied leading to extension of MCP joints and flexion of IP joints (claw hand). The ulnar nerve innervates all the intrinsic muscles of the hand, except for the first and second lumbrical, abductor pollicis brevis, opponens pollicis, and part of flexor pollicis brevis."
+    },
+    {
+      "id": "NEET_2020_Q09",
+      "exam": "NEET 2020",
+      "question_number": 9,
+      "topic": "Embryology",
+      "question_text": "Meiosis occurs in:",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Adrenal",
+        "b": "Adult ovary",
+        "c": "Prepubertal testis",
+        "d": "Hypothalamus"
+      },
+      "correct_answer": "b",
+      "explanation": "Meiosis occurs in the adult ovary. Meiosis takes place only in germ cells and results in the formation of haploid gametes. Meiosis requires two cell divisions, meiosis I and meiosis II, to reduce the number of chromosomes to the haploid number of 23. Spermatogenesis begins at puberty; primordial germ cells (PGCs) remain dormant in the testis until puberty. Adrenal and hypothalamus are somatic cells that only undergo mitosis, not meiosis."
+    },
+    {
+      "id": "NEET_2020_Q10",
+      "exam": "NEET 2020",
+      "question_number": 10,
+      "topic": "Embryology",
+      "question_text": "The long left recurrent laryngeal nerve is due to the persistence of which arch artery?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "3rd arch",
+        "b": "4th arch",
+        "c": "5th arch",
+        "d": "6th arch"
+      },
+      "correct_answer": "d",
+      "explanation": "The long left recurrent laryngeal nerve is due to the persistence of the left 6th arch artery. During development, the laryngeal nerves initially arise below the 6th arch artery and cross here to innervate the intrinsic muscles of the larynx. As the larynx moves cranially relative to the aortic arch arteries, the recurrent laryngeal nerves on the right and left sides are caught under the 6th arch arteries. On the right side, the distal 6th arch artery disappears, so the right recurrent laryngeal nerve is caught under the 4th arch artery (future right subclavian artery). On the left side, the 6th arch artery persists as the ductus arteriosus (later ligamentum arteriosum), so the left recurrent laryngeal nerve is caught under it and has a relatively long course."
+    },
+    {
+      "id": "NEET_2020_Q11",
+      "exam": "NEET 2020",
+      "question_number": 11,
+      "topic": "Upper Limb",
+      "question_text": "The muscle marked by the arrow in the image below is innervated by the________.",
+      "has_image": true,
+      "image_file": "NEET_2020_Q11.png",
+      "image_description": "Posterior view of the upper back and shoulder region showing superficial muscles. An arrow with a question mark points to the levator scapulae muscle on the upper lateral aspect of the back near the neck.",
+      "options": {
+        "a": "Dorsal scapular nerve",
+        "b": "Suprascapular nerve",
+        "c": "From the dorsal rami of C1",
+        "d": "Subscapular nerve"
+      },
+      "correct_answer": "a",
+      "explanation": "The muscle marked in the image is levator scapulae, which is innervated by the dorsal scapular nerve. The appendicular group of back muscles and their innervations include: Trapezius - Accessory nerve, Latissimus dorsi - Thoracodorsal nerve, Levator scapulae - Dorsal scapular nerve, Rhomboid major and minor - Dorsal scapular nerve. The suprascapular nerve innervates the supraspinatus and infraspinatus muscles. The subscapular nerves supply the teres major and subscapularis muscles."
+    },
+    {
+      "id": "NEET_2020_Q12",
+      "exam": "NEET 2020",
+      "question_number": 12,
+      "topic": "Neuroanatomy",
+      "question_text": "A patient presented with weakness of the right side of the face with the loss of pain and temperature. Pain and temperature sensation of the left leg is also lost. The lesion is most likely located at?",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Medial medulla",
+        "b": "Lateral pons",
+        "c": "Medial pons",
+        "d": "Lateral medulla"
+      },
+      "correct_answer": "b",
+      "explanation": "The clinical scenario is suggestive of lateral pontine syndrome which occurs due to a lesion at lateral pons. Lateral pontine syndrome occurs due to involvement of the anterior inferior cerebellar artery. Ipsilateral manifestations include: CN VII facial paralysis, CN V loss of pain and temperature sensation over the face, vestibular nerve/nucleus involvement (nystagmus, vertigo), auditory nerve/cochlear nucleus (deafness, tinnitus), middle cerebellar peduncle (ataxia). Contralateral manifestations include: spinothalamic tract loss of pain and temperature sensation over the body."
+    },
+    {
+      "id": "NEET_2020_Q13",
+      "exam": "NEET 2020",
+      "question_number": 13,
+      "topic": "Abdomen & Pelvis",
+      "question_text": "Ligation of common hepatic artery will impair blood supply in:",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Right gastric and right gastroepiploic artery",
+        "b": "Right gastric and left gastric artery",
+        "c": "Right gastroepiploic and short gastric vessels",
+        "d": "Right gastric and short gastric vessels"
+      },
+      "correct_answer": "a",
+      "explanation": "Ligation of the common hepatic artery will cause impairment in the blood supply through its branches, i.e., right gastric artery and right gastroepiploic artery. The arterial supply of the stomach is contributed exclusively by the branches of the celiac trunk: Left gastric artery supplies the lesser curvature. Splenic artery gives short gastric arteries (fundus) and left gastroepiploic artery (greater curvature). Common hepatic artery gives right gastric artery (lesser curvature) and gastroduodenal artery, from which the right gastroepiploic artery arises (greater curvature)."
+    },
+    {
+      "id": "NEET_2020_Q14",
+      "exam": "NEET 2020",
+      "question_number": 14,
+      "topic": "Thorax",
+      "question_text": "The type of joint marked in the image below is _________:",
+      "has_image": true,
+      "image_file": "NEET_2020_Q14.png",
+      "image_description": "3D rendering of a thoracic vertebra showing the costovertebral articulation. A bracket with a question mark indicates the costotransverse joint between the rib tubercle and the transverse process.",
+      "options": {
+        "a": "Syndesmosis",
+        "b": "Synarthrosis",
+        "c": "Synchondrosis",
+        "d": "Synovial"
+      },
+      "correct_answer": "d",
+      "explanation": "The joint marked in the image is the costotransverse joint, which is a synovial type of joint. The various types of joints in the thoracic wall include: Synovial joints - Costovertebral joint, Costotransverse joint, Interchondral joints. Primary cartilaginous joint/Synchondrosis - Costochondral joint. Secondary cartilaginous/Symphyses joint - Manubriosternal and xiphisternal joints. The joint between the 1st costal cartilage and manubrium is a fibrocartilaginous joint (synarthrosis). The joints between the 2nd to 7th costal cartilages and the sternum are synovial."
+    },
+    {
+      "id": "NEET_2020_Q15",
+      "exam": "NEET 2020",
+      "question_number": 15,
+      "topic": "Upper Limb",
+      "question_text": "Identify the sign shown in the image below:",
+      "has_image": true,
+      "image_file": "NEET_2020_Q15.png",
+      "image_description": "Clinical photograph of a patient's arm showing a prominent bulge in the anterior arm during elbow flexion, characteristic of the Popeye sign due to rupture of the long head of biceps brachii tendon.",
+      "options": {
+        "a": "Popeye sign",
+        "b": "Hill-Sachs sign",
+        "c": "Griesinger sign",
+        "d": "Rising sun sign"
+      },
+      "correct_answer": "a",
+      "explanation": "The sign shown in the image is the Popeye sign, which occurs due to the rupture of the tendon of the long head of the biceps brachii. On flexing the elbow, the characteristic deformity appears due to the bulging of the muscle belly caused by the contraction of the unrestrained muscles. Hill-Sachs sign refers to a defect in the postero-lateral surface of the humeral head due to repeated impact against the anterior glenoid rim (complication of anterior shoulder dislocation). Griesinger sign refers to oedema of the postauricular soft tissues overlying the mastoid process as a result of thrombosis of the mastoid emissary vein (complication of acute mastoiditis). Rising sun sign (Schwartze sign) is the otoscopic sign of active otospongiosis."
+    },
+    {
+      "id": "NEET_2020_Q16",
+      "exam": "NEET 2020",
+      "question_number": 16,
+      "topic": "Abdomen & Pelvis",
+      "question_text": "A patient presented with an enlarged inguinal lymph node. The most likely primary cause is",
+      "has_image": false,
+      "image_file": null,
+      "image_description": null,
+      "options": {
+        "a": "Testicular cancer",
+        "b": "Anal cancer",
+        "c": "Sigmoid colon cancer",
+        "d": "Prostate cancer"
+      },
+      "correct_answer": "b",
+      "explanation": "The most likely primary cause of an enlarged inguinal lymph node is anal cancer. Lymphatics from the anal canal distal to the dentate line (anal margin) drains into the inguinal lymph nodes. Hence, anal cancer arising distal to the dentate line can cause enlarged inguinal lymph nodes. Lymphatics proximal to the dentate line drains into internal iliac lymph nodes through superior rectal lymphatics. In testicular cancer, lymphatic spread occurs to the paraaortic lymph nodes. In sigmoid colon cancer, lymphatic spread occurs to regional and then central lymph nodes. In prostate cancer, lymphatic spread occurs to internal iliac and external iliac lymph nodes."
+    },
+    {
+      "id": "NEET_2020_Q17",
+      "exam": "NEET 2020",
+      "question_number": 17,
+      "topic": "Histology",
+      "question_text": "Identify the type of cartilage shown in the image below:",
+      "has_image": true,
+      "image_file": "NEET_2020_Q17.png",
+      "image_description": "Histological image showing elastic cartilage with chondrocytes in lacunae surrounded by a matrix rich in dark-staining elastic fibers, with a visible perichondrium at the periphery.",
+      "options": {
+        "a": "Hyaline cartilage",
+        "b": "Elastic cartilage",
+        "c": "Articular cartilage",
+        "d": "Fibrocartilage"
+      },
+      "correct_answer": "b",
+      "explanation": "The image shows elastic cartilage. The elastic cartilage, like hyaline cartilage, contains individual or small groups of chondrocytes surrounded by type II collagen fibrils. However, it differs from hyaline cartilage in that much of the interterritorial matrix consists of fine yellow elastic fibres containing elastin protein. On microscopy, elastic cartilage consists of chondrocytes within lacunae, elastic fibres in the matrix, and perichondrium with outer fibrous layer and inner cellular layer."
     }
   ]
 }

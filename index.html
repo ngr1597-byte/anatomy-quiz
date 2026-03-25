@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#2a9d8f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Anatomy Quiz</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SCREEN 0: Download -->
+  <div id="screen-download" class="screen">
+    <div class="download-container">
+      <div class="download-icon">⬇</div>
+      <h2>Preparing Anatomy Quiz</h2>
+      <p id="download-status">Checking assets...</p>
+      <div class="progress-bar-container">
+        <div id="download-progress" class="progress-bar-fill"></div>
+      </div>
+      <p id="download-count" class="download-count"></p>
+    </div>
+  </div>
+
+  <!-- SCREEN 1: Home -->
+  <div id="screen-home" class="screen">
+    <div class="home-header">
+      <h1>Anatomy Quiz</h1>
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">
+        <span id="theme-icon">☀️</span>
+      </button>
+    </div>
+
+    <!-- Stats Card -->
+    <div class="card stats-card">
+      <div class="stats-row">
+        <div class="stat-item">
+          <span class="stat-value" id="stat-total">0</span>
+          <span class="stat-label">Total</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value" id="stat-attempted">0</span>
+          <span class="stat-label">Attempted</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value" id="stat-mastered">0</span>
+          <span class="stat-label">Mastered</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value" id="stat-accuracy">0%</span>
+          <span class="stat-label">Accuracy</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Topic Progress -->
+    <div class="card" id="topic-progress">
+      <h3 class="card-title">Topic Mastery</h3>
+      <div id="topic-bars"></div>
+    </div>
+
+    <!-- Filter Section -->
+    <div class="card">
+      <h3 class="card-title">Practice Mode</h3>
+      <div class="filter-tabs" id="filter-tabs">
+        <button class="filter-tab active" data-filter="all">All</button>
+        <button class="filter-tab" data-filter="topic">Topic</button>
+        <button class="filter-tab" data-filter="exam">Exam</button>
+        <button class="filter-tab" data-filter="weak">Weak</button>
+        <button class="filter-tab" data-filter="flagged">Flagged</button>
+      </div>
+      <div id="filter-dropdown-container" class="filter-dropdown-container hidden">
+        <select id="filter-dropdown" class="filter-dropdown">
+          <option value="">Select...</option>
+        </select>
+      </div>
+      <p id="filter-info" class="filter-info"></p>
+    </div>
+
+    <button id="start-quiz" class="btn-primary">Start Quiz</button>
+    <button id="reset-progress" class="btn-text">Reset Progress</button>
+  </div>
+
+  <!-- SCREEN 2: Quiz -->
+  <div id="screen-quiz" class="screen">
+    <div class="quiz-header">
+      <button id="quiz-back" class="icon-btn" aria-label="Back to home">←</button>
+      <span id="quiz-progress">Q 1 / 10</span>
+      <span id="quiz-topic" class="topic-badge">Topic</span>
+    </div>
+
+    <div class="card quiz-card">
+      <div class="quiz-meta">
+        <span id="quiz-stats" class="quiz-stats">New question</span>
+        <button id="quiz-bookmark" class="icon-btn bookmark-btn" aria-label="Bookmark">☆</button>
+      </div>
+
+      <div id="quiz-image-container" class="quiz-image-container hidden">
+        <img id="quiz-image" class="quiz-image" alt="" />
+      </div>
+
+      <p id="quiz-question" class="quiz-question"></p>
+
+      <div id="quiz-options" class="quiz-options"></div>
+
+      <div id="quiz-explanation" class="explanation hidden">
+        <div id="explanation-header" class="explanation-header"></div>
+        <p id="explanation-text" class="explanation-text"></p>
+      </div>
+
+      <button id="quiz-next" class="btn-primary hidden">Next Question</button>
+    </div>
+  </div>
+
+  <!-- SCREEN 3: Results -->
+  <div id="screen-results" class="screen">
+    <div class="results-container">
+      <h2>Quiz Complete</h2>
+
+      <div class="card results-score-card">
+        <div id="results-score" class="results-score"></div>
+        <div id="results-percentage" class="results-percentage"></div>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">Topic Breakdown</h3>
+        <div id="results-breakdown"></div>
+      </div>
+
+      <div class="results-actions">
+        <button id="review-mistakes" class="btn-primary">Review Mistakes</button>
+        <button id="results-home" class="btn-secondary">Back to Home</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

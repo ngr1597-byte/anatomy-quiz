@@ -1,6 +1,6 @@
 // === CONSTANTS ===
 const MASTERY_THRESHOLD = 3;
-const CACHE_NAME = 'anatomy-quiz-v4';
+const CACHE_NAME = 'anatomy-quiz-v5';
 const STORAGE_KEY = 'anatomy-quiz-progress';
 
 // === STATE ===
@@ -151,6 +151,18 @@ function renderHome() {
   // Topic mastery bars
   renderTopicBars(progress);
 
+  // Restore collapsed/expanded state
+  const content = document.getElementById('topic-bars');
+  const arrow = document.querySelector('.toggle-arrow');
+  const expanded = progress.settings?.topicsExpanded || false;
+  if (expanded) {
+    content.classList.remove('collapsed');
+    arrow.style.transform = 'rotate(180deg)';
+  } else {
+    content.classList.add('collapsed');
+    arrow.style.transform = 'rotate(0deg)';
+  }
+
   // Update filter info
   updateFilterInfo();
 }
@@ -289,6 +301,7 @@ function renderQuestion() {
   document.getElementById('quiz-progress').textContent =
     `Q ${state.currentIndex + 1} / ${state.sessionQuestions.length}`;
   document.getElementById('quiz-topic').textContent = q.topic;
+  document.getElementById('quiz-exam').textContent = q.exam;
 
   // Stats
   const statsEl = document.getElementById('quiz-stats');
@@ -484,6 +497,19 @@ function reviewMistakes() {
 function bindEvents() {
   // Theme toggle
   document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
+
+  // Collapsible topic mastery
+  document.getElementById('topic-toggle').addEventListener('click', () => {
+    const content = document.getElementById('topic-bars');
+    const arrow = document.querySelector('.toggle-arrow');
+    content.classList.toggle('collapsed');
+    arrow.style.transform = content.classList.contains('collapsed') ? 'rotate(0deg)' : 'rotate(180deg)';
+    // Save preference
+    const progress = loadProgress();
+    if (!progress.settings) progress.settings = {};
+    progress.settings.topicsExpanded = !content.classList.contains('collapsed');
+    saveProgressData(progress);
+  });
 
   // Filter tabs
   document.getElementById('filter-tabs').addEventListener('click', e => {

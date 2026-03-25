@@ -54,8 +54,10 @@
 
     <!-- Topic Progress -->
     <div class="card" id="topic-progress">
-      <h3 class="card-title">Topic Mastery</h3>
-      <div id="topic-bars"></div>
+      <h3 class="card-title collapsible" id="topic-toggle">
+        Topic Mastery <span class="toggle-arrow">▼</span>
+      </h3>
+      <div id="topic-bars" class="collapsible-content collapsed"></div>
     </div>
 
     <!-- Filter Section -->
@@ -90,6 +92,7 @@
     <div class="quiz-header">
       <button id="quiz-back" class="icon-btn" aria-label="Back to home">←</button>
       <span id="quiz-progress">Q 1 / 10</span>
+      <span id="quiz-exam" class="exam-badge">Exam</span>
       <span id="quiz-topic" class="topic-badge">Topic</span>
     </div>
 

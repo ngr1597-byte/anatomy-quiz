@@ -38,6 +38,14 @@
           <span class="stat-label">Mastered</span>
         </div>
         <div class="stat-item">
+          <span class="stat-value" id="stat-never-seen">0</span>
+          <span class="stat-label">Never Seen</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value" id="stat-five-reps">0</span>
+          <span class="stat-label">5+ Reps</span>
+        </div>
+        <div class="stat-item">
           <span class="stat-value" id="stat-accuracy">0%</span>
           <span class="stat-label">Accuracy</span>
         </div>
@@ -68,7 +76,12 @@
       <p id="filter-info" class="filter-info"></p>
     </div>
 
-    <button id="start-quiz" class="btn-primary">Start Quiz</button>
+    <div class="quick-start">
+      <button class="btn-primary btn-quick" data-count="5">5 Qs</button>
+      <button class="btn-primary btn-quick" data-count="10">10 Qs</button>
+      <button class="btn-primary btn-quick" data-count="15">15 Qs</button>
+      <button class="btn-secondary btn-quick" data-count="all">All</button>
+    </div>
     <button id="reset-progress" class="btn-text">Reset Progress</button>
   </div>
 

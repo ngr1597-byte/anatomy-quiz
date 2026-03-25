@@ -1,6 +1,6 @@
 // === CONSTANTS ===
 const MASTERY_THRESHOLD = 3;
-const CACHE_NAME = 'anatomy-quiz-v2';
+const CACHE_NAME = 'anatomy-quiz-v3';
 const STORAGE_KEY = 'anatomy-quiz-progress';
 
 // === STATE ===
@@ -105,19 +105,23 @@ function renderHome() {
   const progress = loadProgress();
 
   // Overall stats
-  let totalSeen = 0, totalCorrect = 0, masteredCount = 0;
+  let totalSeen = 0, totalCorrect = 0, masteredCount = 0, fivePlusReps = 0;
   for (const qid in progress.questions) {
     const q = progress.questions[qid];
     if (q.seen > 0) totalSeen++;
+    if (q.seen >= 5) fivePlusReps++;
     totalCorrect += q.correct;
     if (q.mastered) masteredCount++;
   }
+  const neverSeen = QUESTIONS.length - totalSeen;
   const totalAttempts = Object.values(progress.questions).reduce((s, q) => s + q.seen, 0);
   const accuracy = totalAttempts > 0 ? Math.round((totalCorrect / totalAttempts) * 100) : 0;
 
   document.getElementById('stat-total').textContent = QUESTIONS.length;
   document.getElementById('stat-attempted').textContent = totalSeen;
   document.getElementById('stat-mastered').textContent = masteredCount;
+  document.getElementById('stat-never-seen').textContent = neverSeen;
+  document.getElementById('stat-five-reps').textContent = fivePlusReps;
   document.getElementById('stat-accuracy').textContent = accuracy + '%';
 
   // Topic mastery bars
@@ -198,8 +202,9 @@ function updateFilterInfo() {
   const info = document.getElementById('filter-info');
   info.textContent = `${filtered.length} question${filtered.length !== 1 ? 's' : ''} available`;
 
-  const startBtn = document.getElementById('start-quiz');
-  startBtn.disabled = filtered.length === 0;
+  document.querySelectorAll('.btn-quick').forEach(btn => {
+    btn.disabled = filtered.length === 0;
+  });
 }
 
 function populateDropdown(type) {
@@ -231,11 +236,13 @@ function shuffleArray(arr) {
   return a;
 }
 
-function startQuiz(questions) {
+function startQuiz(questions, count) {
   const filtered = questions || getFilteredQuestions();
   if (filtered.length === 0) return;
 
-  state.sessionQuestions = shuffleArray(filtered);
+  let shuffled = shuffleArray(filtered);
+  if (count && count < shuffled.length) shuffled = shuffled.slice(0, count);
+  state.sessionQuestions = shuffled;
   state.currentIndex = 0;
   state.answered = false;
   state.selectedOption = null;
@@ -453,8 +460,13 @@ function bindEvents() {
     updateFilterInfo();
   });
 
-  // Start quiz
-  document.getElementById('start-quiz').addEventListener('click', () => startQuiz());
+  // Quick start buttons
+  document.querySelector('.quick-start').addEventListener('click', e => {
+    const btn = e.target.closest('.btn-quick');
+    if (!btn || btn.disabled) return;
+    const count = btn.dataset.count === 'all' ? null : parseInt(btn.dataset.count);
+    startQuiz(null, count);
+  });
 
   // Reset progress
   document.getElementById('reset-progress').addEventListener('click', () => {

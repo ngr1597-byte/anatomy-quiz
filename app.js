@@ -1,6 +1,6 @@
 // === CONSTANTS ===
 const MASTERY_THRESHOLD = 3;
-const CACHE_NAME = 'anatomy-quiz-v5';
+const CACHE_NAME = 'anatomy-quiz-v6';
 const STORAGE_KEY = 'anatomy-quiz-progress';
 
 // === STATE ===

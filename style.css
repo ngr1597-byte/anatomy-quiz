@@ -623,6 +623,15 @@ body {
   margin-top: 16px;
 }
 
+/* Home Footer */
+.home-footer {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-secondary);
+  font-style: italic;
+  padding: 16px 0 8px;
+}
+
 /* === Responsive === */
 @media (min-width: 768px) {
   .screen {

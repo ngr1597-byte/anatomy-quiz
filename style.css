@@ -562,6 +562,27 @@ body {
   color: var(--accent);
 }
 
+.results-message {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 16px 0 12px;
+}
+
+.results-message.urgent {
+  color: var(--incorrect);
+}
+
+.results-message.perfect {
+  color: var(--correct);
+}
+
+.results-message.round-complete {
+  color: var(--accent);
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
 .results-actions {
   margin-top: 16px;
 }

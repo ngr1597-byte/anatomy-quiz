@@ -1,6 +1,6 @@
 // === CONSTANTS ===
 const MASTERY_THRESHOLD = 3;
-const CACHE_NAME = 'anatomy-quiz-v3';
+const CACHE_NAME = 'anatomy-quiz-v4';
 const STORAGE_KEY = 'anatomy-quiz-progress';
 
 // === STATE ===
@@ -13,6 +13,7 @@ let state = {
   answered: false,
   selectedOption: null,
   sessionResults: [],
+  isFullRound: false,
 };
 
 // === LOCALSTORAGE ===
@@ -89,6 +90,29 @@ function toggleTheme() {
   progress.settings.theme = next;
   saveProgressData(progress);
   applyTheme(next);
+}
+
+// === ROUNDS TRACKING ===
+function getRoundKey() {
+  if (state.filterMode === 'all') return 'all';
+  if (state.filterMode === 'weak') return 'weak';
+  if (state.filterMode === 'flagged') return 'flagged';
+  if (state.filterValue) return state.filterMode + ':' + state.filterValue;
+  return 'all';
+}
+
+function getCurrentRound(key) {
+  const progress = loadProgress();
+  if (!progress.rounds) return 0;
+  return progress.rounds[key] || 0;
+}
+
+function incrementRound(key) {
+  const progress = loadProgress();
+  if (!progress.rounds) progress.rounds = {};
+  progress.rounds[key] = (progress.rounds[key] || 0) + 1;
+  saveProgressData(progress);
+  return progress.rounds[key];
 }
 
 // === SCREEN MANAGEMENT ===
@@ -200,7 +224,10 @@ function getFilteredQuestions() {
 function updateFilterInfo() {
   const filtered = getFilteredQuestions();
   const info = document.getElementById('filter-info');
-  info.textContent = `${filtered.length} question${filtered.length !== 1 ? 's' : ''} available`;
+  const roundKey = getRoundKey();
+  const round = getCurrentRound(roundKey);
+  const roundText = round > 0 ? ` · Round ${round + 1}` : '';
+  info.textContent = `${filtered.length} question${filtered.length !== 1 ? 's' : ''} available${roundText}`;
 
   document.querySelectorAll('.btn-quick').forEach(btn => {
     btn.disabled = filtered.length === 0;
@@ -241,6 +268,8 @@ function startQuiz(questions, count) {
   if (filtered.length === 0) return;
 
   let shuffled = shuffleArray(filtered);
+  // Track if this is a full round (no count limit, or count >= total)
+  state.isFullRound = !count || count >= filtered.length;
   if (count && count < shuffled.length) shuffled = shuffled.slice(0, count);
   state.sessionQuestions = shuffled;
   state.currentIndex = 0;
@@ -410,14 +439,38 @@ function showResults() {
       </div>
     `).join('');
 
-  // Hide review button if no mistakes
-  const mistakes = state.sessionResults.filter(r => !r.correct);
+  // Round tracking
+  const messageEl = document.getElementById('results-message');
   const reviewBtn = document.getElementById('review-mistakes');
-  if (mistakes.length === 0) {
-    reviewBtn.classList.add('hidden');
-  } else {
+  const homeBtn = document.getElementById('results-home');
+  const mistakes = state.sessionResults.filter(r => !r.correct);
+
+  // Increment round if full session completed
+  let roundMessage = '';
+  if (state.isFullRound) {
+    const roundKey = getRoundKey();
+    const newRound = incrementRound(roundKey);
+    roundMessage = `Round ${newRound} Complete!`;
+  }
+
+  if (mistakes.length > 0) {
+    // Aggressive mistake drilling
+    const urgentText = roundMessage
+      ? `${roundMessage}\n${mistakes.length} question${mistakes.length !== 1 ? 's' : ''} need drilling. Don't skip.`
+      : `${mistakes.length} question${mistakes.length !== 1 ? 's' : ''} need drilling. Don't skip.`;
+    messageEl.textContent = urgentText;
+    messageEl.className = 'results-message urgent';
     reviewBtn.classList.remove('hidden');
-    reviewBtn.textContent = `Review Mistakes (${mistakes.length})`;
+    reviewBtn.textContent = `Drill Mistakes (${mistakes.length})`;
+    reviewBtn.className = 'btn-primary';
+    homeBtn.className = 'btn-text';
+  } else {
+    // Perfect session
+    const perfectText = roundMessage ? `${roundMessage} Perfect!` : 'Perfect!';
+    messageEl.textContent = perfectText;
+    messageEl.className = 'results-message perfect';
+    reviewBtn.classList.add('hidden');
+    homeBtn.className = 'btn-primary';
   }
 }
 
